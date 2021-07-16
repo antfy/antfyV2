@@ -1,0 +1,41 @@
+<resources>
+    <!-- Título do app -->
+    <string name="app_name">ANTFY</string>
+
+    <!-- Telas Iniciais -->
+    <string name="btn_cadastre">CADASTRE-SE</string>
+    <string name="btn_cadastrar">CADASTRAR</string>
+    <string name="btn_entrar">ENTRAR</string>
+    <string name="btn_home_sentindo">O QUE ESTÁ SENTINDO?</string>
+    <string name="btn_home_noticias">NOTÍCIAS</string>
+    <string name="btn_home_mensagens">MENSAGENS</string>
+    <string name="btn_disconect">DESCONECTAR</string>
+
+    <!-- Formulário -->
+    <string name="hint_email">example@email.com</string>
+    <string name="hint_senha">senha</string>
+    <string name="dados_nome">Nome completo:</string>
+    <string name="dados_email">Email:</string>
+    <string name="dados_tel">Telefone:</string>
+    <string name="dados_rg">RG:</string>
+    <string name="dados_cpf">CPF:</string>
+    <string name="dados_idade">Idade:</string>
+    <string name="dados_altura">Altura:</string>
+    <string name="dados_peso">Peso:</string>
+    <string name="dados_sangue">Sangue:</string>
+    <string name="dados_sexo">Sexo:</string>
+    <string name="dados_civil">Estado civil:</string>
+
+    <!-- Geral -->
+    <string name="sub_cadastrar">Crie uma conta para começar a usar.</string>
+    <string name="politica">Ao criar uma conta você concorda com os Termos de Serviço e com a Política de Privacidade</string>
+    <string name="sub_entrar">Faça login para acessar sua conta.</string>
+    <string name="esqueci">Esqueci minha senha.</string>
+    <string name="home_perfil">Perfil</string>
+    <string name="home_notify">Notificações</string>
+    <string name="enviar_respostas">Enviar respostas</string>
+    <string name="agendamentos">Agendamentos</string>
+    <string name="sub_agendar">Médicos que podem te ajudar:</string>
+    <string name="sobre_doutor">Sobre o doutor:</string>
+    <string name="sub_confirmar">Confirmar consulta</string>
+</resources>
