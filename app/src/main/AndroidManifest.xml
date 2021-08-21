@@ -14,18 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AntfyV2">
         <activity
+            android:name=".CadastroActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/antfyABTitle" />
+        <activity
             android:name=".EntrarActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/antfyABTitle"/>
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

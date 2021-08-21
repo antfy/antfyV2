@@ -15,7 +15,7 @@ public class EntrarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entrar);
 
-        //actionbar (navigation off)
+        // Actionbar (Navigation Off)
         Objects.requireNonNull(getSupportActionBar()).setTitle("\t\t\t\t\t\t\t\t\t\t\t\tENTRAR");
         View decorView = getWindow().getDecorView();
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
