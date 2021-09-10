@@ -13,7 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AntfyV2">
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".ConsultasActivity"></activity>
+        <activity android:name=".DateActivity" />
+        <activity android:name=".AgendarActivity" />
+        <activity android:name=".SentindoActivity" />
+        <activity android:name=".NotifyActivity" />
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".HomeActivity" />
         <activity
             android:name=".CadastroActivity"
             android:parentActivityName=".MainActivity"
