@@ -13,7 +13,8 @@
 
     <!-- Formulário -->
     <string name="hint_email">example@email.com</string>
-    <string name="hint_senha">senha</string>
+    <string name="hint_senha">Senha:</string>
+    <string name="hint_senhaNum">************</string>
     <string name="dados_nome">Nome completo:</string>
     <string name="dados_nomeNum">Fulano Beltrano Ciclano</string>
     <string name="dados_email">Email:</string>
@@ -42,4 +43,5 @@
     <string name="sub_agendar">Médicos que podem te ajudar:</string>
     <string name="sobre_doutor">Sobre o doutor:</string>
     <string name="sub_confirmar">Confirmar consulta</string>
+    <string name="btn_editarPerfil">Editar perfil</string>
 </resources>
