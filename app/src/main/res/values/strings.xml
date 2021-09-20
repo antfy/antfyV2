@@ -15,10 +15,14 @@
     <string name="hint_email">example@email.com</string>
     <string name="hint_senha">senha</string>
     <string name="dados_nome">Nome completo:</string>
+    <string name="dados_nomeNum">Fulano Beltrano Ciclano</string>
     <string name="dados_email">Email:</string>
+    <string name="dados_endereco">Endereço:</string>
+    <string name="dados_enderecoNum">Av. Lins de Vasconcelos, 1222</string>
     <string name="dados_tel">Telefone:</string>
     <string name="dados_rg">RG:</string>
     <string name="dados_cpf">CPF:</string>
+    <string name="dados_cpfNum">000.000.000-00</string>
     <string name="dados_idade">Idade:</string>
     <string name="dados_altura">Altura:</string>
     <string name="dados_peso">Peso:</string>
