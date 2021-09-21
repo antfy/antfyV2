@@ -22,6 +22,7 @@ public class CadastroActivity extends AppCompatActivity {
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
 
+
         // HOME ACTIVITY
         Button btCadastrar = findViewById(R.id.btCadastrar);
         btCadastrar.setOnClickListener(new View.OnClickListener() {

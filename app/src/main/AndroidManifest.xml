@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AntfyV2">
-        <activity android:name=".ConsultasActivity"></activity>
+        <activity android:name=".ConsultasActivity"/>
         <activity android:name=".DateActivity" />
         <activity android:name=".AgendarActivity" />
         <activity android:name=".SentindoActivity" />
@@ -22,8 +22,11 @@
         <activity android:name=".PerfilActivity" />
         <activity
             android:name=".HomeActivity"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/antfyABTitle"/>
+            android:theme="@style/antfyABTitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
         <activity
             android:name=".CadastroActivity"
             android:parentActivityName=".MainActivity"
@@ -37,7 +40,6 @@
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

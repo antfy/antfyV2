@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
 
+
         // ENTRAR ACTIVITY
         Button btEntre = findViewById(R.id.btEntre);
         btEntre.setOnClickListener(new View.OnClickListener() {

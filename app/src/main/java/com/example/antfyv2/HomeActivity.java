@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import java.util.Objects;
 
@@ -25,6 +27,37 @@ public class HomeActivity extends AppCompatActivity {
         View decorView = getWindow().getDecorView();
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
+
+
+        // SENTINDO ACTIVITY
+        Button btSentindo = findViewById(R.id.btSentindo);
+        btSentindo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // intent
+                startActivity(new Intent(getApplicationContext(), SentindoActivity.class));
+            }
+        });
+
+        // NOTIFICAÇÃO ACTIVITY
+        ImageView btNotify = findViewById(R.id.btNotify);
+        btNotify.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // intent
+                startActivity(new Intent(getApplicationContext(), NotifyActivity.class));
+            }
+        });
+
+        // ENTRAR ACTIVITY
+        ImageView btPerfil = findViewById(R.id.btPerfil);
+        btPerfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // intent
+                startActivity(new Intent(getApplicationContext(), PerfilActivity.class));
+            }
+        });
 
 
         // WEBVIEW
