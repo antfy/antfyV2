@@ -3,6 +3,7 @@
     package="com.example.antfyv2">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -19,7 +20,10 @@
         <activity android:name=".SentindoActivity" />
         <activity android:name=".NotifyActivity" />
         <activity android:name=".PerfilActivity" />
-        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/antfyABTitle"/>
         <activity
             android:name=".CadastroActivity"
             android:parentActivityName=".MainActivity"
