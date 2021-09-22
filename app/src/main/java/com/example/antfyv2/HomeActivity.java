@@ -10,6 +10,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 
 import java.util.Objects;
@@ -29,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         decorView.setSystemUiVisibility(uiOpcoes);
 
 
+
         // SENTINDO ACTIVITY
         Button btSentindo = findViewById(R.id.btSentindo);
         btSentindo.setOnClickListener(new View.OnClickListener() {
@@ -36,6 +38,19 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // intent
                 startActivity(new Intent(getApplicationContext(), SentindoActivity.class));
+            }
+        });
+
+        // MENSAGEM WHATSAPP
+        Button btMensagem = findViewById(R.id.btMensagens);
+        btMensagem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText telefone = findViewById(R.id.textTelefone);
+                String wpp = "https://api.whatsapp.com/send?phone=" + telefone.getText().toString();
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(wpp));
+                startActivity(intent);
             }
         });
 
@@ -60,6 +75,7 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
+        
         // WEBVIEW
         WebView webview = findViewById(R.id.noticias);
         webview.setWebViewClient(new WebViewClient());

@@ -87,6 +87,22 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
+        android:id="@+id/textTelefone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/dados_telNum"
+        android:inputType="phone"
+        android:textColor="@color/antfy_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <EditText
         android:id="@+id/textSenha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -106,7 +122,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="@string/sub_cadastrar"
         android:textAlignment="center"
         android:textColor="@color/antfy_dark"
@@ -121,7 +137,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="@string/dados_nome"
         android:textColor="@color/antfy_primary"
         android:textStyle="bold"
@@ -159,6 +175,18 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="@string/dados_endereco"
+        android:textColor="@color/antfy_primary"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTelefone" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/dados_tel"
         android:textColor="@color/antfy_primary"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
