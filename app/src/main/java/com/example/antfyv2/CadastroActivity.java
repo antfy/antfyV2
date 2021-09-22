@@ -28,7 +28,6 @@ public class CadastroActivity extends AppCompatActivity {
         btCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //intent
                 startActivity(new Intent(getApplicationContext(), HomeActivity.class));
             }
         });

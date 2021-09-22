@@ -36,7 +36,6 @@ public class HomeActivity extends AppCompatActivity {
         btSentindo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // intent
                 startActivity(new Intent(getApplicationContext(), SentindoActivity.class));
             }
         });
@@ -59,23 +58,21 @@ public class HomeActivity extends AppCompatActivity {
         btNotify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // intent
                 startActivity(new Intent(getApplicationContext(), NotifyActivity.class));
             }
         });
 
-        // ENTRAR ACTIVITY
+        // PERFIL ACTIVITY
         ImageView btPerfil = findViewById(R.id.btPerfil);
         btPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // intent
                 startActivity(new Intent(getApplicationContext(), PerfilActivity.class));
             }
         });
 
 
-        
+
         // WEBVIEW
         WebView webview = findViewById(R.id.noticias);
         webview.setWebViewClient(new WebViewClient());

@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         btEntre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // intent
                 startActivity(new Intent(getApplicationContext(), EntrarActivity.class));
             }
         });
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         btCadastrese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // intent
                 startActivity(new Intent(getApplicationContext(), CadastroActivity.class));
             }
         });
