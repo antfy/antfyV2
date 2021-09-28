@@ -23,20 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
         // ENTRAR ACTIVITY
         Button btEntre = findViewById(R.id.btEntre);
-        btEntre.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), EntrarActivity.class));
-            }
-        });
+        btEntre.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), EntrarActivity.class)));
 
         // CADASTRO ACTIVITY
         Button btCadastrese =  findViewById(R.id.btCadastrese);
-        btCadastrese.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), CadastroActivity.class));
-            }
-        });
+        btCadastrese.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), CadastroActivity.class)));
     }
 }

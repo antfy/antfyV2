@@ -19,7 +19,7 @@ public class PerfilActivity extends AppCompatActivity {
         setContentView(R.layout.activity_perfil);
 
         // ACTIONBAR (NAVIGATION OFF)
-        Objects.requireNonNull(getSupportActionBar()).setTitle("\t\t\t\t\t\t\t\t\t\t\t\tPERFIL");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPERFIL");
         View decorView = getWindow().getDecorView();
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
@@ -37,11 +37,6 @@ public class PerfilActivity extends AppCompatActivity {
 
         // MAIN ACTIVITY (LOGOUT)
         Button btDesconectar = findViewById(R.id.btDesconectar);
-        btDesconectar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-            }
-        });
+        btDesconectar.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
 }

@@ -25,11 +25,6 @@ public class EntrarActivity extends AppCompatActivity {
 
         // HOME ACTIVITY
         Button btEntrar = findViewById(R.id.btEntrar);
-        btEntrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), HomeActivity.class));
-            }
-        });
+        btEntrar.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), HomeActivity.class)));
     }
 }
