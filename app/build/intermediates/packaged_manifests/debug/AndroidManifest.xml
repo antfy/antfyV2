@@ -24,12 +24,24 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AntfyV2" >
-        <activity android:name="com.example.antfyv2.ConsultasActivity" />
-        <activity android:name="com.example.antfyv2.DateActivity" />
-        <activity android:name="com.example.antfyv2.AgendarActivity" />
-        <activity android:name="com.example.antfyv2.SentindoActivity" />
-        <activity android:name="com.example.antfyv2.NotifyActivity" />
-        <activity android:name="com.example.antfyv2.PerfilActivity" />
+        <activity
+            android:name="com.example.antfyv2.ConsultasActivity"
+            android:parentActivityName="com.example.antfyv2.PerfilActivity" />
+        <activity
+            android:name="com.example.antfyv2.DateActivity"
+            android:parentActivityName="com.example.antfyv2.AgendarActivity" />
+        <activity
+            android:name="com.example.antfyv2.AgendarActivity"
+            android:parentActivityName="com.example.antfyv2.SentindoActivity" />
+        <activity
+            android:name="com.example.antfyv2.SentindoActivity"
+            android:parentActivityName="com.example.antfyv2.HomeActivity" />
+        <activity
+            android:name="com.example.antfyv2.NotifyActivity"
+            android:parentActivityName="com.example.antfyv2.HomeActivity" />
+        <activity
+            android:name="com.example.antfyv2.PerfilActivity"
+            android:parentActivityName="com.example.antfyv2.HomeActivity" />
         <activity
             android:name="com.example.antfyv2.HomeActivity"
             android:theme="@style/antfyABTitle" >

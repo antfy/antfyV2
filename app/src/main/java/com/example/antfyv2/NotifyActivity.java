@@ -15,7 +15,7 @@ public class NotifyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notify);
 
         // ACTIONBAR (NAVIGATION OFF)
-        Objects.requireNonNull(getSupportActionBar()).setTitle("\t\t\t\t\t\t\t\t\t\t\t\tNOTIFICAÇÕES");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("\t\t\t\t\t\t\t\t\tNOTIFICAÇÕES");
         View decorView = getWindow().getDecorView();
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
