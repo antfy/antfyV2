@@ -11,6 +11,7 @@
     <string name="btn_home_mensagens">MENSAGENS</string>
     <string name="btn_disconect">DESCONECTAR</string>
 
+
     <!-- Formulário -->
     <string name="hint_email">example@email.com</string>
     <string name="hint_senha">Senha:</string>
@@ -32,6 +33,7 @@
     <string name="dados_sexo">Sexo:</string>
     <string name="dados_civil">Estado civil:</string>
 
+
     <!-- Geral -->
     <string name="sub_cadastrar">Crie uma conta para começar a usar.</string>
     <string name="politica">Ao criar uma conta você concorda com os Termos de Serviço e com a Política de Privacidade</string>
@@ -46,6 +48,7 @@
     <string name="sub_confirmar">Confirmar consulta</string>
     <string name="btn_editarPerfil">Editar perfil</string>
 
+
     <!-- SENTINDO -->
     <string name="title_sentindo">Informe o grau dos sintomas</string>
     <string name="metal">Saúde Mental</string>
@@ -54,6 +57,8 @@
     <string name="tronco">Tronco</string>
     <string name="inferiores">Membros Inferiores</string>
     <string name="superiores">Membros Superiores</string>
+    <string name="btn_buscar">Buscar</string>
+
 
     <!-- SAÚDE MENTAL -->
     <string name="alimentação">Alimentação</string>
@@ -62,6 +67,112 @@
     <string name="pensamentos">Pensamentos</string>
     <string name="sentimentos">Sentimentos</string>
     <string name="sono">Sono</string>
+
+    <!-- ALIMENTAÇÃO -->
+    <string name="aversao">Aversão a alimentos</string>
+    <string name="compulsão">Compulsão alimentar</string>
+    <string name="sede">Excesso de sede</string>
+    <string name="fome">Fome frequente</string>
+    <string name="injestão">Injestão de laxantes</string>
+    <string name="perda">Perda de apetite</string>
+    <string name="preocupação">Preocupação escessiva com o peso e dietas</string>
+    <string name="tabagismo">Tabagismo</string>
+    <string name="alcool">Uso excessivo de álcool</string>
+    <string name="vomito">Vômito induzido</string>
+
+    <!-- AMBIENTE -->
+    <string name="poluição">Poluição ambiental e sonora</string>
+
+    <!-- COMPORTAMENTOS -->
+    <string name="acumulação">Acumulação compulsiva</string>
+    <string name="automutilação">Automutilação</string>
+    <string name="choro">Choro</string>
+    <string name="desorganizado">Comportamento desorganizado</string>
+    <string name="risco">Comportamentos de risco</string>
+    <string name="ritualistico">Comportamentos ritualísticos</string>
+    <string name="dificuldade_concentração">Dificuldade de concentração</string>
+    <string name="atividades_diarias">Dificuldade em fazer atividades diárias</string>
+    <string name="fala">Fala rápida e frenética</string>
+    <string name="falta_concentração">Falta de concentração</string>
+    <string name="falta_exercicio">Falta de exercício físico</string>
+    <string name="falta_moderação">Falta de moderação</string>
+    <string name="invenção">Invenção de coisas</string>
+    <string name="isolamento">Isolamento social</string>
+    <string name="lentidao">Lentidão durante atividades</string>
+    <string name="repetitivo">Movimentos repetitivos</string>
+    <string name="narcismo">Narcismo</string>
+    <string name="obsessão">Obsessões sexuais</string>
+    <string name="ranger">Ranger os dentes</string>
+    <string name="repetição">Repetição persistente de palavras ou ações</string>
+    <string name="repetição_sentido">Repetição sem sentido das próprias palavras</string>
+    <string name="dissociativo">Transtorno dissociativo</string>
+    <string name="vicio_comportamental">Vício comportamental</string>
+
+    <!-- PENSAMENTOS -->
+    <string name="alucinação">Alucinações</string>
+    <string name="auto_imagem">Auto-imagem distorcida</string>
+    <string name="confusão">Confusão mental</string>
+    <string name="crença_mental">Crença que um evento comum tem um significado especial e pessoal</string>
+    <string name="crença_pensamentos">Crença que os pensamentos não são seus</string>
+    <string name="delirio">Delírio</string>
+    <string name="delirio_persecutorio">Delírio persecutório</string>
+    <string name="delirio_religioso">Delírio religioso</string>
+    <string name="esquecimento">Esquecimento</string>
+    <string name="grandiosidade">Grandiosidade</string>
+    <string name="ouvir_vozes">Ouvir vozes</string>
+    <string name="acelerado">Pensamento acelerado</string>
+    <string name="indesejados">Pensamentos indesejados</string>
+    <string name="suicidas">Pensamentos suicidas</string>
+    <string name="repetição_pensamentos">Repetição incessante de pensamentos</string>
+
+    <!-- SENTIMENTOS -->
+    <string name="agitação">Agitação</string>
+    <string name="agressão">Agressão</string>
+    <string name="alteração_humor">Alteração do humor</string>
+    <string name="ansiedade">Ansiedade</string>
+    <string name="apatia">Apatia</string>
+    <string name="apreensão">Apreensão</string>
+    <string name="culpa">Culpa</string>
+    <string name="depressão">Depressão</string>
+    <string name="depressão_agitada">Depressão agitada</string>
+    <string name="desanimo">Desânimo</string>
+    <string name="descontentamento">Descontentamento geral</string>
+    <string name="desesperança">Desesperança</string>
+    <string name="desorientação">Desorientação</string>
+    <string name="maniaco">Episódio maníaco</string>
+    <string name="estresse">Estresse</string>
+    <string name="euforia">Euforia</string>
+    <string name="excesso_sexual">Excesso de desejo sexual</string>
+    <string name="excitabilidade">Excitabilidade</string>
+    <string name="superioridade">Falsa superioridade</string>
+    <string name="hiperatividade">Hiperatividade</string>
+    <string name="hostilidade">Hostilidade</string>
+    <string name="impulsividade">Impulsividade</string>
+    <string name="inquietação">Inquietação</string>
+    <string name="insonia">Insônia</string>
+    <string name="irritabilidade">Irritabilidade</string>
+    <string name="mal_estar">Mal estar</string>
+    <string name="medo">Medo</string>
+    <string name="mudanças_humor">Mudanças de humor</string>
+    <string name="nervosismo">Nervosismo</string>
+    <string name="paranoia">Paranoia</string>
+    <string name="perda_interesse">Perda de interesse</string>
+    <string name="perda_prazer">Perda de prazer nas atividades</string>
+    <string name="pessimismo">Pessimismo</string>
+    <string name="psicose">Psicose</string>
+    <string name="raiva">Raiva</string>
+    <string name="resposta_emocional">Resposta emocional inadequada</string>
+    <string name="tristeza">Tristeza</string>
+
+    <!-- SONO -->
+    <string name="declinio">Declínio do sono</string>
+    <string name="dificl_dormir">Dificuldade de adormecer</string>
+    <string name="disturbios_sono">Distúrbios do sono</string>
+    <string name="excesso_sono">Excesso de sonolência</string>
+    <string name="noites_mal">Noites mal dormidas</string>
+    <string name="pesadelos">Pesadelos</string>
+    <string name="priva_sono">Privação do sono</string>
+
 
     <!-- PARTES GERAIS -->
     <string name="corpo">Corpo</string>
@@ -72,7 +183,47 @@
     <string name="sangue">Sangue</string>
     <string name="unha">Unha</string>
     <string name="urina">Urina</string>
-    <string name="via_nervosa">Via Nervosa</string>
+    <string name="via_nervosa">Via nervosa</string>
+
+    <!-- CORPO -->
+    <string name="ardor">Ardor no corpo</string>
+    <string name="aumento_gordura">Aumento de gorduras pelo corpo</string>
+    <string name="aumento_infecções">Aumento de infecções</string>
+    <string name="aumento_peso">Aumento de peso</string>
+    <string name="calafrios">Calafrios</string>
+    <string name="cresce_lento">Crescimento e desenvolvimento lento em crianças</string>
+    <string name="dificil_crescer">Dificuldade de crescimento</string>
+    <string name="fadiga">Fadiga</string>
+    <string name="febre">Febre</string>
+    <string name="formigamento">Formigamento no corpo</string>
+    <string name="fraqueza">Fraqueza pelo corpo</string>
+    <string name="ganho_peso">Ganho de peso</string>
+    <string name="inchaço">Inchaço no corpo</string>
+    <string name="mal_estar_geral">Mal estar geral</string>
+    <string name="perda_altura">Perda de altura</string>
+    <string name="perda_peso">Perda de peso</string>
+    <string name="perda_posição">Perda do sentido de posição</string>
+    <string name="desmaio">Sensação de desmaio</string>
+    <string name="queimação">Sensação de queimação pelo corpo</string>
+    <string name="dor">Sensibilidade a dor pelo corpo</string>
+    <string name="frio">Sensibilidade ao frio pelo corpo</string>
+    <string name="sensibilidade">Sensibilidade pelo corpo</string>
+    <string name="inchados">Tecidos inchados</string>
+    <string name="temperatura_baixa">Temperatura baixa</string>
+
+    <!-- ARTICULAÇÕES -->
+    <string name="crepitação">Crepitações das articulações</string>
+    <string name="deformidade">Deformidade nas articulações</string>
+    <string name="mobilidade_reduzida">Diminuição da mobilidade nas articulações</string>
+    <string name="dor_articulações">Dor nas articulações</string>
+    <string name="dor_forte">Dores fortes nas articulações</string>
+    <string name="estalos">Estalos nas articulações</string>
+    <string name="inchaço_articulações">Inchaço nas articulações</string>
+    <string name="perda_flexibilidade">Perda de flexibilidade nas articulações</string>
+    <string name="rangidos">Rangidos nas articulações</string>
+    <string name="rigidez">Rigidez nas articulações</string>
+    <string name="sensibilidade_articulações">Sensibilidade nas articulações</string>
+
 
     <!-- CABEÇA -->
     <string name="rosto">Rosto</string>
@@ -86,15 +237,15 @@
     <string name="garganta">Garganta</string>
     <string name="pulmão">Pulmão</string>
     <string name="coração">Coração</string>
-    <string name="mamas">Glândulas Mamárias</string>
+    <string name="mamas">Glândulas mamárias</string>
     <string name="abdomem">Abdomem</string>
     <string name="rins">Rins</string>
     <string name="intestino">Intestino</string>
     <string name="anus">Ânus</string>
     <string name="costas">Costas</string>
     <string name="escapulas">Escápulas</string>
-    <string name="sacral">Região Sacral</string>
-    <string name="sexuais">Glândulas Sexuais</string>
+    <string name="sacral">Região sacral</string>
+    <string name="sexuais">Glândulas sexuais</string>
 
     <!-- MEMBROS INFERIORES -->
     <string name="pernas">Pernas</string>
