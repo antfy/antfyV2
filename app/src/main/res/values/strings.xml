@@ -50,7 +50,7 @@
 
 
     <!-- SENTINDO -->
-    <string name="title_sentindo">Informe o grau dos sintomas</string>
+    <string name="title_sentindo">Informe o grau dos seus sintomas para achar seu médico ideal!</string>
     <string name="metal">Saúde Mental</string>
     <string name="gerais">Partes Gerais</string>
     <string name="cabeça">Cabeça</string>
@@ -320,6 +320,22 @@
     <string name="boca">Boca</string>
 
     <!-- CABEÇA -->
+    <string name="amnesia">Amnésia</string>
+    <string name="cabelo_ralo">Cabelo ralo ou fino</string>
+    <string name="convulsoes">Convulsões</string>
+    <string name="desmaios">Desmaios</string>
+    <string name="desequilibrio">Distúrbio do desequilibrio</string>
+    <string name="dor_cabeça">Dor de cabeça</string>
+    <string name="dor_testa">Dor na testa</string>
+    <string name="fala_ininteligivel">Fala ininteligível</string>
+    <string name="memoria_fraca">Memória fraca</string>
+    <string name="perda_equilibrio">Perda de equilíbrio</string>
+    <string name="perda_memoria">Perda de memória</string>
+    <string name="pressão_seios">Pressão nos seios paranasais</string>
+    <string name="queda_cabelo">Queda de cabelo</string>
+    <string name="sensibilidade_cabeça">Sensibilidade na cabeça</string>
+    <string name="tonturas">Tonturas</string>
+    <string name="vertigem">Vertigem</string>
 
     <!-- ROSTO -->
     <string name="mandibula">Desconforto na mandíbula</string>
@@ -328,6 +344,33 @@
     <string name="inchaço_rosto">Inchaço no rosto</string>
 
     <!-- OLHOS -->
+    <string name="percepção_cores">Alteração na percepção das cores</string>
+    <string name="alucinações_visuais">Alucinações visuais</string>
+    <string name="linhas">Anormalidade onde linhas retas parecem onduladas</string>
+    <string name="cegueira">Cegueira noturna</string>
+    <string name="coceira_olhos">Coceira/irritação nos olhos</string>
+    <string name="adapta_luz">Dificuldade de se adaptar à luz</string>
+    <string name="dor_olhos">Dor nos olhos</string>
+    <string name="dor_olhos_tras">Dor na parte de trás dos olhos</string>
+    <string name="escurecimento_vista">Escurecimento da visão</string>
+    <string name="fecha_olhos">Fechar os olhos para enxergar melhor</string>
+    <string name="inchaço_olhos">Inchaço nos olhos</string>
+    <string name="lacrimeja_olhos">Olhos lacrimejando</string>
+    <string name="marejados">Olhos marejados</string>
+    <string name="vermelho_olhos">Olhos vermelhos</string>
+    <string name="branco_seco">Parte branca dos olhos secas e expessas</string>
+    <string name="perda_visao_parcial">Perda de visão parcial ou completa</string>
+    <string name="secreção_olhos">Secreção nos olhos</string>
+    <string name="secura_olhos">Secura nos olhos</string>
+    <string name="peso_olhos">Sensação de peso nos olhos</string>
+    <string name="luz">Sensibilidade à luz</string>
+    <string name="tremor_olhos">Tremor nos olhos</string>
+    <string name="vermelhidao_olhos">Vermelhidão nos olhos</string>
+    <string name="visao_brilho">Visão com brilho</string>
+    <string name="visao_distorcida">Visão distorcida</string>
+    <string name="visao_dupla">Visão dupla</string>
+    <string name="visao_embaçada">Visão embaçada</string>
+    <string name="visao_pontos">Visualização de pontos</string>
 
     <!-- NARIZ -->
     <string name="coceira_nariz">Coceira nazal insistente</string>
@@ -375,9 +418,13 @@
     <string name="sacral">Região sacral</string>
     <string name="sexuais">Glândulas sexuais</string>
 
+    <!-- PESCOÇO -->
+
+
     <!-- MEMBROS INFERIORES -->
     <string name="pernas">Pernas</string>
     <string name="pes">Pés</string>
+
 
     <!-- MEMBROS SUPERIORES -->
     <string name="braços">Braços</string>
