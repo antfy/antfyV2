@@ -298,7 +298,15 @@
     <string name="enfraquecidas">Unhas enfraquecidas</string>
 
     <!-- URINA -->
-
+    <string name="ausencia_urina">Ausência de urina</string>
+    <string name="rosa_urina">Cor rosa, vermelha ou marrom de urina</string>
+    <string name="dor_urina">Dor ao urinar</string>
+    <string name="micção">Micção escessiva durante a noite</string>
+    <string name="sangue_urina">Sangue na urina</string>
+    <string name="escura_urina">Urina escura</string>
+    <string name="espuma_urina">Urina espumosa</string>
+    <string name="varias_urina">Vontade de urinar várias vezes ao dia</string>
+    <string name="frequente_urina">Vontade frequente de urinar</string>
 
     <!-- VIA NERVOSA -->
     <string name="nervosa">Dor ao longo de uma via nervosa (ciática, por exemplo)</string>
@@ -310,6 +318,47 @@
     <string name="nariz">Nariz</string>
     <string name="ouvido">Ouvido</string>
     <string name="boca">Boca</string>
+
+    <!-- CABEÇA -->
+
+    <!-- ROSTO -->
+    <string name="mandibula">Desconforto na mandíbula</string>
+    <string name="dor_rosto">Dores no rosto</string>
+    <string name="excesso_pelo_rosto">Excesso de pele no rosto</string>
+    <string name="inchaço_rosto">Inchaço no rosto</string>
+
+    <!-- OLHOS -->
+
+    <!-- NARIZ -->
+    <string name="coceira_nariz">Coceira nazal insistente</string>
+    <string name="coriza">Coriza</string>
+    <string name="espirros">Espirros repetidos</string>
+    <string name="entupido_nariz">Nariz entupido</string>
+    <string name="escorrendo_nariz">Nariz escorrendo</string>
+    <string name="perda_olfato">Perda de olfato</string>
+    <string name="perturbação_olfato">Perturbação no olfato</string>
+    <string name="ronco">Ronco</string>
+    <string name="nariz_sangra">Sangramento no nariz</string>
+
+    <!-- OUVIDO -->
+    <string name="calor_ouvido">Calor no ouvido</string>
+    <string name="dor_ouvido">Dores no ouvido</string>
+    <string name="drenagem_ouvido">Drenagem de fluídos nos ouvidos</string>
+    <string name="inflamação_ouvido">Inflamação no ouvido</string>
+    <string name="perda_audição">Perda de audição</string>
+    <string name="pus_ouvido">Pus no ouvido</string>
+    <string name="surdez">Surdez</string>
+    <string name="vermelho_ouvido">Vermelhidão no ouvido</string>
+    <string name="zumbido_ouvido">Zumbido nos ouvidos</string>
+
+    <!-- BOCA -->
+    <string name="boca_seca">Boca seca</string>
+    <string name="boca_coceira">Coceira no céu da boca</string>
+    <string name="boca_inchaço">Inchaço na boca</string>
+    <string name="lingua_inchaço">Inchaço na língua</string>
+    <string name="paladar">Perturbações do paladar</string>
+    <string name="gengiva">Sangramentos na gengiva</string>
+
 
     <!-- TRONCO -->
     <string name="pescoço">Pescoço</string>
