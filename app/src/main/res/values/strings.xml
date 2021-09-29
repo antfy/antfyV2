@@ -45,4 +45,62 @@
     <string name="sobre_doutor">Sobre o doutor:</string>
     <string name="sub_confirmar">Confirmar consulta</string>
     <string name="btn_editarPerfil">Editar perfil</string>
+
+    <!-- SENTINDO -->
+    <string name="title_sentindo">Selecione os sintomas</string>
+    <string name="metal">Saúde Mental</string>
+    <string name="gerais">Partes Gerais</string>
+    <string name="cabeça">Cabeça</string>
+    <string name="tronco">Tronco</string>
+    <string name="inferiores">Membros Inferiores</string>
+    <string name="superiores">Membros Superiores</string>
+
+    <!-- SAÚDE MENTAL -->
+    <string name="alimentação">Alimentação</string>
+    <string name="ambiente">Ambiente</string>
+    <string name="comportamentos">Comportamentos</string>
+    <string name="pensamentos">Pensamentos</string>
+    <string name="sentimentos">Sentimentos</string>
+    <string name="sono">Sono</string>
+
+    <!-- PARTES GERAIS -->
+    <string name="corpo">Corpo</string>
+    <string name="articulações">Articulações</string>
+    <string name="musculos">Músculos</string>
+    <string name="ossos">Ossos</string>
+    <string name="pele">Pele</string>
+    <string name="sangue">Sangue</string>
+    <string name="unha">Unha</string>
+    <string name="urina">Urina</string>
+    <string name="via_nervosa">Via Nervosa</string>
+
+    <!-- CABEÇA -->
+    <string name="rosto">Rosto</string>
+    <string name="olhos">Olhos</string>
+    <string name="nariz">Nariz</string>
+    <string name="ouvido">Ouvido</string>
+    <string name="boca">Boca</string>
+
+    <!-- TRONCO -->
+    <string name="pescoço">Pescoço</string>
+    <string name="garganta">Garganta</string>
+    <string name="pulmão">Pulmão</string>
+    <string name="coração">Coração</string>
+    <string name="mamas">Glândulas Mamárias</string>
+    <string name="abdomem">Abdomem</string>
+    <string name="rins">Rins</string>
+    <string name="intestino">Intestino</string>
+    <string name="anus">Ânus</string>
+    <string name="costas">Costas</string>
+    <string name="escapulas">Escápulas</string>
+    <string name="sacral">Região Sacral</string>
+    <string name="sexuais">Glândulas Sexuais</string>
+
+    <!-- MEMBROS INFERIORES -->
+    <string name="pernas">Pernas</string>
+    <string name="pes">Pés</string>
+
+    <!-- MEMBROS SUPERIORES -->
+    <string name="braços">Braços</string>
+    <string name="maos">Mãos</string>
 </resources>
