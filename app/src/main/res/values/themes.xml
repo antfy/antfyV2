@@ -24,8 +24,8 @@
         <item name="colorPrimaryDark">@color/antfy_dark</item>                    // barra notificação
         <item name="colorAccent">@color/antfy_ligth</item>                        // cor hiperlink
         <item name="android:windowBackground">@color/antfy_background</item>      // fundo
-        <item name="android:textColorSecondary">@color/antfy_background</item>       // icone voltar
-        <item name="android:textColorPrimary">@color/antfy_background</item>         // título
+        <item name="android:textColorSecondary">@android:color/white</item>       // icone voltar
+        <item name="android:textColorPrimary">@android:color/white</item>         // título
     </style>
 
     <!-- NoActionBar Theme -->
