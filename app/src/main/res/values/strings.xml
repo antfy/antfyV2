@@ -419,6 +419,83 @@
     <string name="sexuais">Glândulas sexuais</string>
 
     <!-- PESCOÇO -->
+    <string name="dor_pescoço">Dor no pescoço</string>
+    <string name="inchaço_glanglios">Inchaço nos glânglios</string>
+
+    <!-- GARGANTA -->
+    <string name="ardor_garganta">Ardor na garganta</string>
+    <string name="coceira_garganta">Coceira na garganta</string>
+    <string name="engolir">Dificuldade em engolir</string>
+    <string name="deglutição">Dor à deglutição</string>
+    <string name="dor_garganta">Dor de garganta</string>
+    <string name="irritação_garganta">Irritação na garganta</string>
+    <string name="pigarro_garganta">Pigarro na garganta</string>
+    <string name="pus_garganta">Pus na garganta</string>
+    <string name="queima_garganta">Sensação de queimação na garganta</string>
+
+    <!-- PULMÃO -->
+
+    <!-- CORAÇÃO -->
+    <string name="aperto">Aperto forte no coração (região levemente à esquerda da linha média)</string>
+    <string name="frequencia_lenta">Frequência cardíaca lenta</string>
+    <string name="hipertensao">Hipertensão</string>
+    <string name="incomodo">Incomodo no coração (região levemente à esquerda da linha média)</string>
+    <string name="palpitação">Palpitação do coração</string>
+    <string name="ritmo_acelerado">Rítmo cardíaco acelerado</string>
+
+    <!-- GLÂNDULAS MAMÁRIAS -->
+    <string name="caroços">Aparecimento de "caroços" ao apertar a mama</string>
+    <string name="coceira_mama">Coceira na mama</string>
+    <string name="meninos_mama">Crescimento das mamas nos meninos</string>
+    <string name="dor_mama">Dor na mama</string>
+    <string name="aspecto_mama">Mudança do aspecto da pela na mama</string>
+    <string name="secreção_mamilo">Secreção pelo mamilo não estando grávida</string>
+
+    <!-- ABDÓMEM -->
+    <string name="azia_estomago">Azia ou queimação no estômago</string>
+    <string name="desconforto_abdomem">Desconforto na região do abdómem</string>
+    <string name="dor_abdomem">Dor abdominal</string>
+    <string name="dor_colica">Dor e cólica frequente abdominal</string>
+    <string name="gases">Gases</string>
+    <string name="inchaço_abdomem">Inchaço na região do abdómem</string>
+    <string name="nausea">Náusea/enjôo</string>
+    <string name="refluxo">Refluxo</string>
+    <string name="vomito_ab">Vômito</string>
+
+    <!-- RINS -->
+    <string name="dor_rins">Dor nas costas/rins</string>
+    <string name="infecção_rins">Infecção frequentes dos rins</string>
+
+    <!-- INTESTINO -->
+    <string name="digestao">Alteração da digestão</string>
+    <string name="constipação">Constipação intestinal</string>
+    <string name="diarreia">Diarréia</string>
+    <string name="diarreia_persiste">Diarréia persistente por mais de 3 semanas</string>
+    <string name="dor_defeca">Dor ao defecar</string>
+    <string name="esvaziar_intestino">Incapacidade de esvaziar o intestino</string>
+    <string name="prisao_ventre">Prisão de ventre</string>
+
+    <!-- ÂNUS -->
+    <string name="evacuar">Dificuldade para evacuar</string>
+    <string name="dor_anus">Dores no ânus</string>
+    <string name="sangra_anus">Sangramento anal</string>
+
+    <!-- COSTAS -->
+    <string name="encurvadas">Costas encurvadas</string>
+    <string name="dor_costas">Dor nas costas</string>
+    <string name="dor_inferior_costas">Dor na parte inferior das costas</string>
+    <string name="dor_quadril">Dor no quadril</string>
+
+    <!-- ESCÁPULAS -->
+    <string name="desconforto_escapula">Desconforto na região das escápulas</string>
+
+    <!-- REGIÃO SACRAL -->
+    <string name="dor_sacral">Dores na região sacral</string>
+    <string name="dor_pelvis">Dores na pelvis</string>
+    <string name="inchaço_sacral">Inchaço na região sacral</string>
+
+    <!-- GlÂNDULAS SEXUAIS -->
+
 
 
     <!-- MEMBROS INFERIORES -->
