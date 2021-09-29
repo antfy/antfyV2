@@ -224,6 +224,85 @@
     <string name="rigidez">Rigidez nas articulações</string>
     <string name="sensibilidade_articulações">Sensibilidade nas articulações</string>
 
+    <!-- MÚSCULOS -->
+    <string name="anomalias">Anomalias na locomoção</string>
+    <string name="dor_tardia">Dor tardia nos músculos</string>
+    <string name="dores_musculo">Dores nos músculos</string>
+    <string name="espasmos">Espasmos musculares</string>
+    <string name="fraqueza_musculos">Fraqueza nos músculos</string>
+    <string name="lentidão_movimentos">Lentidão nos movimentos</string>
+    <string name="ma_coordenação">Má coordenação motora</string>
+    <string name="involutarios">Movimentos involuntários</string>
+    <string name="paralisia">Paralisia</string>
+    <string name="perda_massa">Perda de massa muscular</string>
+    <string name="rigidez_muscular">Rigidez muscular</string>
+    <string name="sensibilidade_musculos">Sensibilidade nos músculos</string>
+    <string name="tremor">Tremor dos músculos</string>
+
+    <!-- OSSOS -->
+    <string name="deformidade_fratura">Deformidade do local fraturado</string>
+    <string name="dor_ossos">Dor nos ossos</string>
+    <string name="enfraquecimento_ossos">Enfraquecimento dos ossos</string>
+    <string name="formação_tecido">Formação de tecido ósseo</string>
+    <string name="fratura">Fratura dos ossos</string>
+    <string name="movimento_fratura">Incapacidade de se movimentar na região fraturada</string>
+    <string name="perda_ossea">Perda de massa óssea</string>
+    <string name="ruptura_ossos">Ruptura dos ossos</string>
+    <string name="temperatura_fratura">Temperatura elevada no local da fratura</string>
+    <string name="trinco">Trinco dos ossos</string>
+
+    <!-- PELE -->
+    <string name="acne">Acne</string>
+    <string name="sensibilidade_pele">Aumento de sensibilidade na pele</string>
+    <string name="coloração">Coloração acinzentado-azulado</string>
+    <string name="menos_pelos">Diminuição de pelos</string>
+    <string name="dormencia_pele">Dormência na pele</string>
+    <string name="excesso_pele">Excesso de pele</string>
+    <string name="excesso_pelo_mulher">Excesso de pelos em mulheres</string>
+    <string name="bolhas">Formação de pequenas bolhas na pele</string>
+    <string name="formigamentos_pele">Formigamentos ou picadas na pele</string>
+    <string name="infecções_pele">Infecções frequentes na pele</string>
+    <string name="manchas_vermelhas">Manchas avermelhadas ou que coçam</string>
+    <string name="manchas_some">Manchas avermelhadas que desaparecem e reaparecem em diversas partes do corpo</string>
+    <string name="mau_cheiro">Mau cheiro</string>
+    <string name="palidez">Palidez</string>
+    <string name="pele_amarela">Pele amarelada</string>
+    <string name="pele_cinza">Pele com coloração acinzentado-azulado</string>
+    <string name="pele_fria">Pele fria</string>
+    <string name="pele_oleosa">Pele oleosa</string>
+    <string name="pele_ressecada">Pele ressecada com vermelhidão nas dobras</string>
+    <string name="pele_seca">Pele seca</string>
+    <string name="pele_escamosa">Pele seca e escamosa</string>
+    <string name="pele_umida">Pele úmida</string>
+    <string name="perda_sensibilidade">Perda de sensibilidade na pele</string>
+    <string name="pintas">Pintas que mudam de tamanho e cor</string>
+    <string name="sinais">Sinais com textura e bordas irregulares</string>
+    <string name="sudorese">Sudorese noturna</string>
+    <string name="suor">Suor</string>
+    <string name="suor_excessivo">Suor excessivo</string>
+    <string name="estrias">Surgimento de estrias</string>
+    <string name="vermelhidao">Vermelhidão intensa após picada de insetos</string>
+    <string name="vermelhidao_pele">Vermelhidão na pele</string>
+
+    <!-- SANGUE -->
+    <string name="anemia">Anemia</string>
+    <string name="cicatrização">Feridas com cicatrização lenta</string>
+    <string name="sangramento">Sangramento</string>
+    <string name="vasos">Vasos sanguíneos novos e anormais</string>
+
+    <!-- UNHA -->
+    <string name="descascamento">Descascamento das unhas</string>
+    <string name="dor_unhas">Dor nas unhas</string>
+    <string name="infecções_unhas">Infecções nas unhas</string>
+    <string name="amarelas">Unhas amareladas</string>
+    <string name="enfraquecidas">Unhas enfraquecidas</string>
+
+    <!-- URINA -->
+
+
+    <!-- VIA NERVOSA -->
+    <string name="nervosa">Dor ao longo de uma via nervosa (ciática, por exemplo)</string>
+
 
     <!-- CABEÇA -->
     <string name="rosto">Rosto</string>
