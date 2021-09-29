@@ -47,7 +47,7 @@
     <string name="btn_editarPerfil">Editar perfil</string>
 
     <!-- SENTINDO -->
-    <string name="title_sentindo">Selecione os sintomas</string>
+    <string name="title_sentindo">Informe o grau dos sintomas</string>
     <string name="metal">Saúde Mental</string>
     <string name="gerais">Partes Gerais</string>
     <string name="cabeça">Cabeça</string>

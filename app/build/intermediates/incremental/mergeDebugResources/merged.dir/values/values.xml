@@ -1117,11 +1117,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abdomem">Abdomem</string>
     <string name="agendamentos">Agendamentos</string>
+    <string name="alimentação">Alimentação</string>
+    <string name="ambiente">Ambiente</string>
+    <string name="anus">Ânus</string>
     <string name="app_name">ANTFY</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="articulações">Articulações</string>
+    <string name="boca">Boca</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="braços">Braços</string>
     <string name="btn_cadastrar">CADASTRAR</string>
     <string name="btn_cadastre">CADASTRE-SE</string>
     <string name="btn_disconect">DESCONECTAR</string>
@@ -1130,11 +1137,16 @@
     <string name="btn_home_mensagens">MENSAGENS</string>
     <string name="btn_home_noticias">NOTÍCIAS</string>
     <string name="btn_home_sentindo">O QUE ESTÁ SENTINDO?</string>
+    <string name="cabeça">Cabeça</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="comportamentos">Comportamentos</string>
+    <string name="coração">Coração</string>
+    <string name="corpo">Corpo</string>
+    <string name="costas">Costas</string>
     <string name="dados_altura">Altura:</string>
     <string name="dados_civil">Estado civil:</string>
     <string name="dados_cpf">CPF:</string>
@@ -1153,10 +1165,13 @@
     <string name="dados_telNum">(11) 91234–5678</string>
     <string name="enviar_respostas">Enviar respostas</string>
     <string name="error_icon_content_description">Error</string>
+    <string name="escapulas">Escápulas</string>
     <string name="esqueci">Esqueci minha senha.</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="garganta">Garganta</string>
+    <string name="gerais">Partes Gerais</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hint_email">example@email.com</string>
     <string name="hint_senha">Senha:</string>
@@ -1164,7 +1179,11 @@
     <string name="home_notify">Notificações</string>
     <string name="home_perfil">Perfil</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="inferiores">Membros Inferiores</string>
+    <string name="intestino">Intestino</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="mamas">Glândulas Mamárias</string>
+    <string name="maos">Mãos</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE] " name="material_clock_toggle_content_description">Select AM or PM</string>
     <string description="Description for button to switch to select the hour [CHAR_LIMIT=NONE]" name="material_hour_selection">Select hour</string>
@@ -1185,6 +1204,7 @@
     <string description="Suffix for time in 12-hour standard, after noon. [CHAR_LIMIT=2]" name="material_timepicker_pm">PM</string>
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="metal">Saúde Mental</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string description="Content description for a close icon that lets the user remove content from the screen" name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string description="Plural form content description for when the number of new notifications exceeds a maximum count[CHAR_LIMIT=NONE]" name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">More than <ns2:g example="999" id="maximum number">%1$d</ns2:g> new notifications</string>
@@ -1220,19 +1240,43 @@
     <string description="a11y string to indicate this button switches the user to choosing a day [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
     <string description="a11y string to indicate this button changes the input mode to a text field [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string description="a11y string to indicate this button switches the user to choosing a year [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="musculos">Músculos</string>
+    <string name="nariz">Nariz</string>
+    <string name="olhos">Olhos</string>
+    <string name="ossos">Ossos</string>
+    <string name="ouvido">Ouvido</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pele">Pele</string>
+    <string name="pensamentos">Pensamentos</string>
+    <string name="pernas">Pernas</string>
+    <string name="pes">Pés</string>
+    <string name="pescoço">Pescoço</string>
     <string name="politica">Ao criar uma conta você concorda com os Termos de Serviço e com a Política de Privacidade</string>
+    <string name="pulmão">Pulmão</string>
+    <string name="rins">Rins</string>
+    <string name="rosto">Rosto</string>
+    <string name="sacral">Região Sacral</string>
+    <string name="sangue">Sangue</string>
     <string name="search_menu_title">Search</string>
+    <string name="sentimentos">Sentimentos</string>
+    <string name="sexuais">Glândulas Sexuais</string>
     <string name="sobre_doutor">Sobre o doutor:</string>
+    <string name="sono">Sono</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_agendar">Médicos que podem te ajudar:</string>
     <string name="sub_cadastrar">Crie uma conta para começar a usar.</string>
     <string name="sub_confirmar">Confirmar consulta</string>
     <string name="sub_entrar">Faça login para acessar sua conta.</string>
+    <string name="superiores">Membros Superiores</string>
+    <string name="title_sentindo">Selecione os sintomas</string>
+    <string name="tronco">Tronco</string>
+    <string name="unha">Unha</string>
+    <string name="urina">Urina</string>
+    <string name="via_nervosa">Via Nervosa</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AndroidThemeColorAccentYellow" ns1:ignore="NewApi">
@@ -3831,17 +3875,17 @@
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
     <style name="Theme.AntfyV2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/antfy_primary</item>
         <item name="colorPrimaryVariant">@color/antfy_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/antfy_secondary</item>
         <item name="colorSecondaryVariant">@color/antfy_ligth</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
     </style>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -5092,7 +5136,7 @@
     <style name="antfyABTitle" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">false</item>
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/antfy_primary</item>                     // barra título
         <item name="actionBarTheme">@color/antfy_background</item>                // estilo barra titulo
         <item name="colorPrimaryDark">@color/antfy_dark</item>                    // barra notificação
@@ -5102,7 +5146,7 @@
         <item name="android:textColorPrimary">@android:color/white</item>         // título
     </style>
     <style name="antfyNoAB" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        
     </style>
     <declare-styleable name="ActionBar">
         
