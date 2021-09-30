@@ -2,11 +2,10 @@ com/example/antfyv2/NotifyActivity.java
  com.example.antfyv2.NotifyActivity
 com/example/antfyv2/ConsultasActivity.java
  com.example.antfyv2.ConsultasActivity
-com/example/antfyv2/PerfilActivity.java
- com.example.antfyv2.PerfilActivity
- com.example.antfyv2.PerfilActivity$1
-com/example/antfyv2/AgendarActivity.java
- com.example.antfyv2.AgendarActivity
+com/example/antfyv2/SentindoActivity.java
+ com.example.antfyv2.SentindoActivity
+com/example/antfyv2/HomeActivity.java
+ com.example.antfyv2.HomeActivity
 com/example/antfyv2/MainActivity.java
  com.example.antfyv2.MainActivity
 com/example/antfyv2/BuildConfig.java
@@ -17,7 +16,8 @@ com/example/antfyv2/CadastroActivity.java
  com.example.antfyv2.CadastroActivity
 com/example/antfyv2/DateActivity.java
  com.example.antfyv2.DateActivity
-com/example/antfyv2/SentindoActivity.java
- com.example.antfyv2.SentindoActivity
-com/example/antfyv2/HomeActivity.java
- com.example.antfyv2.HomeActivity
+com/example/antfyv2/AgendarActivity.java
+ com.example.antfyv2.AgendarActivity
+com/example/antfyv2/PerfilActivity.java
+ com.example.antfyv2.PerfilActivity
+ com.example.antfyv2.PerfilActivity$1

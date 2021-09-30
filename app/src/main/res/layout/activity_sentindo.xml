@@ -43,6 +43,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:background="@drawable/ic_rounded_button_blue"
+                android:drawableStart="@drawable/ic_baseline_bluetooth_24"
                 android:text="@string/btn_conecta"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/bt_medir"
@@ -66,7 +67,7 @@
             <WebView
                 android:layout_width="0dp"
                 android:layout_height="600dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginBottom="32dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

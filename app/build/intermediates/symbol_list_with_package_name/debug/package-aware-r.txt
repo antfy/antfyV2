@@ -1703,6 +1703,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable divisor_darkest_blue
+drawable ic_baseline_bluetooth_24
 drawable ic_baseline_notification_important_24
 drawable ic_baseline_person_24
 drawable ic_clock_black_24dp

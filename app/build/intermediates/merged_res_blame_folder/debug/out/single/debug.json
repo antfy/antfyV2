@@ -124,6 +124,10 @@
         "source": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_antfy_round.xml"
     },
     {
+        "merged": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_bluetooth_24.xml.flat",
+        "source": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\src\\main\\res\\drawable\\ic_baseline_bluetooth_24.xml"
+    },
+    {
         "merged": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
         "source": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
