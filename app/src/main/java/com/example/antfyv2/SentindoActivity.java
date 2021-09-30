@@ -23,5 +23,6 @@ public class SentindoActivity extends AppCompatActivity {
         // https://pt.stackoverflow.com/questions/104127/como-obter-valor-do-campo-html-atrav%C3%A9s-do-webview-usando-javascript
         // https://pt.stackoverflow.com/questions/153041/como-recuperar-dados-de-um-form-html-aberto-em-uma-webview
         // https://medium.com/@shahar_avigezer/bluetooth-low-energy-on-android-22bc7310387a
+        // https://developer.android.com/training/notify-user/build-notification?hl=pt-br
     }
 }

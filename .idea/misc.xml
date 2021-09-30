@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/drawable/icon.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/drawable/icon_app.xml" value="0.382051282051282" />
         <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
         <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/layout/activity_entrar.xml" value="0.33" />
         <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/layout/activity_home.xml" value="0.33" />
@@ -10,6 +14,7 @@
         <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/layout/activity_notify.xml" value="0.14786967418546365" />
         <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
         <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/layout/activity_sentindo.xml" value="0.25" />
+        <entry key="..\:/Users/Laura/Documents/laura/antfyV2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2074074074074074" />
       </map>
     </option>
   </component>

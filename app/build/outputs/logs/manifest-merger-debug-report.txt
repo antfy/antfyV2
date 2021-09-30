@@ -97,9 +97,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\La
 	android:label
 		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:16:9-60
 	android:icon
-		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:14:9-49
 	android:allowBackup
 		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
