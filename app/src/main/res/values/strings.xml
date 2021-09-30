@@ -434,6 +434,22 @@
     <string name="queima_garganta">Sensação de queimação na garganta</string>
 
     <!-- PULMÃO -->
+    <string name="aperto_peito">Aperto no peito</string>
+    <string name="chiado_peito">Chiado no peito</string>
+    <string name="dificuldade_respirar">Dificuldade de respirar durante atividades físicas</string>
+    <string name="dor_peito">Dores no peito</string>
+    <string name="dor_peito_comer">Dores no peito ao comer</string>
+    <string name="dor_peito_respirar">Dores no peito ao respirar fundo</string>
+    <string name="dor_peito_tossir">Dores no peito ao tossir</string>
+    <string name="falta_ar">Falta de ar</string>
+    <string name="respira_anormal">Padrão de respiração anormal</string>
+    <string name="pneumonia">Pneumonia</string>
+    <string name="respira_rapido">Respiração rápida</string>
+    <string name="respira_sibilante">Respiração sibilante</string>
+    <string name="tosse">Tosse</string>
+    <string name="tosse_catarro">Tosse com catarro</string>
+    <string name="tosse_sangue">Tosse com sangue</string>
+    <string name="tosse_cronica">Tosse crônica</string>
 
     <!-- CORAÇÃO -->
     <string name="aperto">Aperto forte no coração (região levemente à esquerda da linha média)</string>
@@ -495,15 +511,56 @@
     <string name="inchaço_sacral">Inchaço na região sacral</string>
 
     <!-- GlÂNDULAS SEXUAIS -->
-
+    <string name="ciclo">Alterações no ciclo menstrual</string>
+    <string name="puberdade">Atraso na puberdade ou puberdade precoce</string>
+    <string name="disfunção_eretil">Disfunção erétil</string>
+    <string name="disfunção_sexual">Disfunção sexual</string>
+    <string name="libido">Diminuição da libido</string>
+    <string name="dor_sexo">Dores durante o sexo</string>
+    <string name="dor_vagina">Dores na vagina</string>
+    <string name="infertil">Infertilidade</string>
+    <string name="dor_menstruação">Menstruação dolorosa</string>
+    <string name="menstruação_intensa">Menstruação intensa</string>
+    <string name="menstruação_irregular">Menstruação irregular</string>
+    <string name="menstruação_ausente">Nas mulheres, ausência de menstruação</string>
+    <string name="menopausa">Sinais e sintomas de andropausa e menopausa</string>
 
 
     <!-- MEMBROS INFERIORES -->
     <string name="pernas">Pernas</string>
     <string name="pes">Pés</string>
 
+    <!-- PERNAS -->
+    <string name="dor_pernas">Dor nas pernas</string>
+    <string name="dor_joelho">Dores nos joelhos</string>
+    <string name="formiga_perna">Formigamento nas pernas</string>
+    <string name="incha_perna">Inchaço nas pernas</string>
+    <string name="mancar">Mancar ao andar</string>
+
+    <!-- PÉS -->
+    <string name="gastos_sapatos">Diferença de gastos em sapatos de um pé para outro</string>
+    <string name="dor_pés">Dor nos pés</string>
+    <string name="incha_pés">Inchaço nos pés</string>
+    <string name="saliencia_pés">Saliência óssea nos dedos dos pés</string>
+    <string name="facada_pés">Sensação de facada na parte inferior</string>
+
 
     <!-- MEMBROS SUPERIORES -->
     <string name="braços">Braços</string>
     <string name="maos">Mãos</string>
+
+    <!-- BRAÇOS -->
+    <string name="desconforto_direito">Desconforto no braço direito</string>
+    <string name="desconforto_esquerdo">Desconforto no braço esquerdo</string>
+    <string name="dor_braço">Dores no braço</string>
+    <string name="formiga_braço">Formigamento no braço</string>
+
+    <!-- MÃOS -->
+    <string name="dor_maos">Dores nas mãos</string>
+    <string name="formiga_maos">Formigamento nas mãos</string>
+    <string name="incha_dedos">Inchaço nos dedos</string>
+    <string name="rigidez_pulso">Rigidez nos pulsos</string>
+    <string name="saliencia_maos">Saliência óssea nos dedos das mãos</string>
+    <string name="frio_maos">Sensação de frio nas mãos</string>
+    <string name="sensibilidade_pulso">Sensibilidade nos pulsos</string>
 </resources>
