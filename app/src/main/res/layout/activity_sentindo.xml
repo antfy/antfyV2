@@ -24,9 +24,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="48dp"
                 android:layout_marginEnd="32dp"
-                android:text="@string/title_sentindo"
+                android:text="@string/med_sentindo"
                 android:textAlignment="center"
                 android:textColor="@color/antfy_dark"
                 android:textSize="18sp"
@@ -35,32 +35,43 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <View
-                android:id="@+id/divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:background="?android:attr/listDivider"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-            <TextView
-                android:id="@+id/textView14"
+            <Button
+                android:id="@+id/bt_conectar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/ic_rounded_button_blue"
+                android:text="@string/btn_conecta"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/bt_medir"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <Button
+                android:id="@+id/bt_medir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:text="@string/metal"
-                android:textColor="@color/antfy_primary"
+                android:background="@drawable/ic_rounded_button_blue"
+                android:text="@string/btn_mede"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/bt_conectar"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/divider" />
+                app:layout_constraintTop_toBottomOf="@+id/bt_medir" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

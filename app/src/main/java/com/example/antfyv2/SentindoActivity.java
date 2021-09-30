@@ -19,5 +19,9 @@ public class SentindoActivity extends AppCompatActivity {
         View decorView = getWindow().getDecorView();
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
+
+        // https://pt.stackoverflow.com/questions/104127/como-obter-valor-do-campo-html-atrav%C3%A9s-do-webview-usando-javascript
+        // https://pt.stackoverflow.com/questions/153041/como-recuperar-dados-de-um-form-html-aberto-em-uma-webview
+        // https://medium.com/@shahar_avigezer/bluetooth-low-energy-on-android-22bc7310387a
     }
 }

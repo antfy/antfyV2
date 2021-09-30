@@ -18,22 +18,28 @@
         android:theme="@style/Theme.AntfyV2">
         <activity
             android:name=".ConsultasActivity"
-            android:parentActivityName=".PerfilActivity"/>
+            android:parentActivityName=".PerfilActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".DateActivity"
-            android:parentActivityName=".AgendarActivity"/>
+            android:parentActivityName=".AgendarActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".AgendarActivity"
-            android:parentActivityName=".SentindoActivity"/>
+            android:parentActivityName=".SentindoActivity"
+            android:theme="@style/antfyABTitle"/>
         <activity
             android:name=".SentindoActivity"
-            android:parentActivityName=".HomeActivity"/>
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".NotifyActivity"
-            android:parentActivityName=".HomeActivity"/>
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/antfyABTitle"/>
         <activity
             android:name=".PerfilActivity"
-            android:parentActivityName=".HomeActivity"/>
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".HomeActivity"
             android:theme="@style/antfyABTitle" >
