@@ -67,7 +67,7 @@
             android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.MainActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="fullSensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
