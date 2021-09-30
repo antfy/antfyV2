@@ -28,22 +28,28 @@
         android:theme="@style/Theme.AntfyV2" >
         <activity
             android:name="com.example.antfyv2.ConsultasActivity"
-            android:parentActivityName="com.example.antfyv2.PerfilActivity" />
+            android:parentActivityName="com.example.antfyv2.PerfilActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.DateActivity"
-            android:parentActivityName="com.example.antfyv2.AgendarActivity" />
+            android:parentActivityName="com.example.antfyv2.AgendarActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.AgendarActivity"
-            android:parentActivityName="com.example.antfyv2.SentindoActivity" />
+            android:parentActivityName="com.example.antfyv2.SentindoActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.SentindoActivity"
-            android:parentActivityName="com.example.antfyv2.HomeActivity" />
+            android:parentActivityName="com.example.antfyv2.HomeActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.NotifyActivity"
-            android:parentActivityName="com.example.antfyv2.HomeActivity" />
+            android:parentActivityName="com.example.antfyv2.HomeActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.PerfilActivity"
-            android:parentActivityName="com.example.antfyv2.HomeActivity" />
+            android:parentActivityName="com.example.antfyv2.HomeActivity"
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name="com.example.antfyv2.HomeActivity"
             android:theme="@style/antfyABTitle" >

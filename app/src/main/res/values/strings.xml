@@ -51,12 +51,15 @@
 
     <!-- SENTINDO -->
     <string name="title_sentindo">Informe o grau dos seus sintomas para achar seu médico ideal!</string>
+    <string name="med_sentindo">Ative seu bluetooth e conecte seu dispositivo para realizar as medições!</string>
     <string name="metal">Saúde Mental</string>
     <string name="gerais">Partes Gerais</string>
     <string name="cabeça">Cabeça</string>
     <string name="tronco">Tronco</string>
     <string name="inferiores">Membros Inferiores</string>
     <string name="superiores">Membros Superiores</string>
+    <string name="btn_conecta">Conectar</string>
+    <string name="btn_mede">Medir</string>
     <string name="btn_buscar">Buscar</string>
 
 
