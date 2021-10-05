@@ -1855,11 +1855,13 @@ id btEditar
 id btEntrar
 id btEntre
 id btMensagens
+id btNoticias
 id btNotify
 id btPerfil
 id btSentindo
 id bt_conectar
 id bt_medir
+id buscaSintoma
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2099,6 +2101,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -2180,7 +2183,6 @@ id textTop
 id textView
 id textView10
 id textView11
-id textView12
 id textView13
 id textView2
 id textView3
@@ -2305,6 +2307,7 @@ layout activity_date
 layout activity_entrar
 layout activity_home
 layout activity_main
+layout activity_noticias
 layout activity_notify
 layout activity_perfil
 layout activity_sentindo

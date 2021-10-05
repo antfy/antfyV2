@@ -1,4 +1,4 @@
-#Thu Sep 30 15:59:12 BRT 2021
+#Wed Oct 06 11:53:05 BRT 2021
 base.1=C\:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
 base.0=C\:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

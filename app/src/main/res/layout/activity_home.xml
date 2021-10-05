@@ -12,7 +12,6 @@
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="48dp"
         android:background="@drawable/ic_rounded_button_white"
         android:backgroundTint="@color/white"
@@ -20,9 +19,31 @@
         android:textColor="@color/antfy_primary"
         android:textStyle="bold"
         app:cornerRadius="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/btNoticias"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btSentindo"
+        app:strokeColor="@color/antfy_primary"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/btNoticias"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/ic_rounded_button_white"
+        android:backgroundTint="@color/white"
+        android:text="@string/btn_home_noticias"
+        android:textColor="@color/antfy_primary"
+        android:textStyle="bold"
+        app:cornerRadius="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btMensagens"
         app:strokeColor="@color/antfy_primary"
         app:strokeWidth="2dp" />
 
@@ -69,43 +90,16 @@
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="48dp"
         android:background="@drawable/ic_rounded_button_blue"
         android:text="@string/btn_home_sentindo"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:cornerRadius="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/btMensagens"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <WebView
-        android:id="@+id/noticias"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/btn_home_noticias"
-        android:textAlignment="center"
-        android:textColor="@color/antfy_darkest"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btMensagens" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -17,6 +17,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AntfyV2">
         <activity
+            android:name=".NoticiasActivity"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/antfyABTitle" />
+        <activity
             android:name=".ConsultasActivity"
             android:parentActivityName=".PerfilActivity"
             android:theme="@style/antfyABTitle" />
@@ -27,7 +31,7 @@
         <activity
             android:name=".AgendarActivity"
             android:parentActivityName=".SentindoActivity"
-            android:theme="@style/antfyABTitle"/>
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".SentindoActivity"
             android:parentActivityName=".HomeActivity"
@@ -35,16 +39,16 @@
         <activity
             android:name=".NotifyActivity"
             android:parentActivityName=".HomeActivity"
-            android:theme="@style/antfyABTitle"/>
+            android:theme="@style/antfyABTitle" />
         <activity
             android:name=".PerfilActivity"
             android:parentActivityName=".HomeActivity"
             android:theme="@style/antfyABTitle" />
         <activity
             android:name=".HomeActivity"
-            android:theme="@style/antfyABTitle" >
+            android:theme="@style/antfyABTitle">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
         <activity
@@ -60,6 +64,7 @@
             android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

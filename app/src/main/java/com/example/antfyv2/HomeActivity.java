@@ -12,12 +12,13 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.Objects;
 
 public class HomeActivity extends AppCompatActivity {
 
-    @SuppressLint("SetJavaScriptEnabled")
+    @SuppressLint({"SetJavaScriptEnabled", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +46,10 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        // NOTÍCIAS ACTIVITY
+        Button btNoticias = findViewById(R.id.btNoticias);
+        btNoticias.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), NoticiasActivity.class)));
+
         // NOTIFICAÇÃO ACTIVITY
         ImageView btNotify = findViewById(R.id.btNotify);
         btNotify.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), NotifyActivity.class)));
@@ -52,13 +57,5 @@ public class HomeActivity extends AppCompatActivity {
         // PERFIL ACTIVITY
         ImageView btPerfil = findViewById(R.id.btPerfil);
         btPerfil.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), PerfilActivity.class)));
-
-
-
-        // WEBVIEW
-        WebView webview = findViewById(R.id.noticias);
-        webview.setWebViewClient(new WebViewClient());
-        webview.getSettings().setJavaScriptEnabled(true);
-        webview.loadUrl("https://www.roche.com.br/pt/imprensa.html");
     }
 }
