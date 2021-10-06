@@ -18,7 +18,7 @@ import java.util.Objects;
 
 public class HomeActivity extends AppCompatActivity {
 
-    @SuppressLint({"SetJavaScriptEnabled", "SetTextI18n"})
+    @SuppressLint({"SetJavaScriptEnabled"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
