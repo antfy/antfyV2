@@ -27,6 +27,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.AntfyV2" >
         <activity
+            android:name="com.example.antfyv2.NoticiasActivity"
+            android:parentActivityName="com.example.antfyv2.HomeActivity"
+            android:theme="@style/antfyABTitle" />
+        <activity
             android:name="com.example.antfyv2.ConsultasActivity"
             android:parentActivityName="com.example.antfyv2.PerfilActivity"
             android:theme="@style/antfyABTitle" />

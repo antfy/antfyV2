@@ -20,7 +20,7 @@
 13-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:7:5-81
 13-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:8:5-79
 14-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:8:22-76
 15    <uses-permission android:name="android.permission.INTERNET" />
 15-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:9:5-67
@@ -30,7 +30,7 @@
 16-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:10:22-76
 17
 18    <application
-18-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:12:5-66:19
+18-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:12:5-71:19
 19        android:allowBackup="true"
 19-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:13:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -50,98 +50,106 @@
 28-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:18:9-45
 29        <activity
 29-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:19:9-22:51
-30            android:name="com.example.antfyv2.ConsultasActivity"
-30-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:20:13-46
-31            android:parentActivityName="com.example.antfyv2.PerfilActivity"
-31-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:21:13-57
+30            android:name="com.example.antfyv2.NoticiasActivity"
+30-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:20:13-45
+31            android:parentActivityName="com.example.antfyv2.HomeActivity"
+31-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:21:13-55
 32            android:theme="@style/antfyABTitle" />
 32-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:22:13-48
 33        <activity
 33-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:23:9-26:51
-34            android:name="com.example.antfyv2.DateActivity"
-34-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:24:13-41
-35            android:parentActivityName="com.example.antfyv2.AgendarActivity"
-35-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:25:13-58
+34            android:name="com.example.antfyv2.ConsultasActivity"
+34-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:24:13-46
+35            android:parentActivityName="com.example.antfyv2.PerfilActivity"
+35-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:25:13-57
 36            android:theme="@style/antfyABTitle" />
 36-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:26:13-48
 37        <activity
-37-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:27:9-30:50
-38            android:name="com.example.antfyv2.AgendarActivity"
-38-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:28:13-44
-39            android:parentActivityName="com.example.antfyv2.SentindoActivity"
-39-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:29:13-59
+37-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:27:9-30:51
+38            android:name="com.example.antfyv2.DateActivity"
+38-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:28:13-41
+39            android:parentActivityName="com.example.antfyv2.AgendarActivity"
+39-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:29:13-58
 40            android:theme="@style/antfyABTitle" />
 40-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:30:13-48
 41        <activity
 41-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:31:9-34:51
-42            android:name="com.example.antfyv2.SentindoActivity"
-42-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:32:13-45
-43            android:parentActivityName="com.example.antfyv2.HomeActivity"
-43-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:33:13-55
+42            android:name="com.example.antfyv2.AgendarActivity"
+42-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:32:13-44
+43            android:parentActivityName="com.example.antfyv2.SentindoActivity"
+43-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:33:13-59
 44            android:theme="@style/antfyABTitle" />
 44-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:34:13-48
 45        <activity
-45-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:35:9-38:50
-46            android:name="com.example.antfyv2.NotifyActivity"
-46-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:36:13-43
+45-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:35:9-38:51
+46            android:name="com.example.antfyv2.SentindoActivity"
+46-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:36:13-45
 47            android:parentActivityName="com.example.antfyv2.HomeActivity"
 47-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:37:13-55
 48            android:theme="@style/antfyABTitle" />
 48-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:38:13-48
 49        <activity
 49-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:39:9-42:51
-50            android:name="com.example.antfyv2.PerfilActivity"
+50            android:name="com.example.antfyv2.NotifyActivity"
 50-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:40:13-43
 51            android:parentActivityName="com.example.antfyv2.HomeActivity"
 51-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:41:13-55
 52            android:theme="@style/antfyABTitle" />
 52-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:42:13-48
 53        <activity
-53-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:43:9-49:20
-54            android:name="com.example.antfyv2.HomeActivity"
-54-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:44:13-41
-55            android:theme="@style/antfyABTitle" >
-55-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:45:13-48
-56            <intent-filter>
-56-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:46:13-48:29
-57                <action android:name="android.intent.action.VIEW" />
-57-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:47:17-68
-57-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:47:25-66
-58            </intent-filter>
-59        </activity>
-60        <activity
-60-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:50:9-53:51
-61            android:name="com.example.antfyv2.CadastroActivity"
-61-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:51:13-45
-62            android:parentActivityName="com.example.antfyv2.MainActivity"
-62-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:52:13-55
-63            android:theme="@style/antfyABTitle" />
-63-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:53:13-48
+53-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:43:9-46:51
+54            android:name="com.example.antfyv2.PerfilActivity"
+54-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:44:13-43
+55            android:parentActivityName="com.example.antfyv2.HomeActivity"
+55-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:45:13-55
+56            android:theme="@style/antfyABTitle" />
+56-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:46:13-48
+57        <activity
+57-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:47:9-53:20
+58            android:name="com.example.antfyv2.HomeActivity"
+58-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:48:13-41
+59            android:theme="@style/antfyABTitle" >
+59-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:49:13-48
+60            <intent-filter>
+60-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:50:13-52:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:51:17-69
+61-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:51:25-66
+62            </intent-filter>
+63        </activity>
 64        <activity
 64-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:54:9-57:51
-65            android:name="com.example.antfyv2.EntrarActivity"
-65-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:55:13-43
+65            android:name="com.example.antfyv2.CadastroActivity"
+65-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:55:13-45
 66            android:parentActivityName="com.example.antfyv2.MainActivity"
 66-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:56:13-55
 67            android:theme="@style/antfyABTitle" />
 67-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:57:13-48
 68        <activity
-68-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:58:9-65:20
-69            android:name="com.example.antfyv2.MainActivity"
-69-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:59:13-41
-70            android:screenOrientation="fullSensor" >
-70-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:60:13-51
-71            <intent-filter>
-71-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:61:13-64:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:62:17-69
-72-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:62:25-66
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-74-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:63:17-77
-74-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:63:27-74
-75            </intent-filter>
-76        </activity>
-77    </application>
-78
-79</manifest>
+68-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:58:9-61:51
+69            android:name="com.example.antfyv2.EntrarActivity"
+69-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:59:13-43
+70            android:parentActivityName="com.example.antfyv2.MainActivity"
+70-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:60:13-55
+71            android:theme="@style/antfyABTitle" />
+71-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:61:13-48
+72        <activity
+72-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:62:9-70:20
+73            android:name="com.example.antfyv2.MainActivity"
+73-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:63:13-41
+74            android:screenOrientation="fullSensor" >
+74-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:64:13-51
+75            <intent-filter>
+75-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:65:13-69:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:66:17-69
+76-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:66:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:68:17-77
+78-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:68:27-74
+79            </intent-filter>
+80        </activity>
+81    </application>
+82
+83</manifest>
