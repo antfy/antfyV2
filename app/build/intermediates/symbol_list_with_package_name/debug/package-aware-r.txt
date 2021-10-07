@@ -1915,6 +1915,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id divider
 id dragDown
 id dragEnd
 id dragLeft
@@ -2183,7 +2184,9 @@ id textTop
 id textView
 id textView10
 id textView11
+id textView12
 id textView13
+id textView15
 id textView2
 id textView3
 id textView4
@@ -2217,6 +2220,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtBatimento
+id txtTemp
 id unchecked
 id uniform
 id unlabeled
@@ -2467,6 +2472,7 @@ string auto_imagem
 string automutilação
 string aversao
 string azia_estomago
+string batimento
 string boca
 string boca_coceira
 string boca_inchaço
@@ -2933,6 +2939,7 @@ string superiores
 string superioridade
 string surdez
 string tabagismo
+string temp
 string temperatura_baixa
 string temperatura_fratura
 string title_sentindo
