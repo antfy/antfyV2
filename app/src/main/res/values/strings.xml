@@ -47,6 +47,8 @@
     <string name="sobre_doutor">Sobre o doutor:</string>
     <string name="sub_confirmar">Confirmar consulta</string>
     <string name="btn_editarPerfil">Editar perfil</string>
+    <string name="batimento">Ritmo Cardíaco: </string>
+    <string name="temp">Temperatura: </string>
 
 
     <!-- SENTINDO -->
