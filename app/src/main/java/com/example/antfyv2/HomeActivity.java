@@ -15,8 +15,6 @@ import android.os.Bundle;
 import android.util.SparseArray;
 import android.view.View;
 import android.view.Window;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -26,6 +24,7 @@ import android.widget.Toast;
 import java.util.Objects;
 
 // LINK: https://www.youtube.com/watch?v=x1y4tEHDwk0 (10:09)
+// https://github.com/devunwired/accessory-samples/tree/master/BluetoothGatt
 // LINK: https://medium.com/@shahar_avigezer/bluetooth-low-energy-on-android-22bc7310387a
 
 public class HomeActivity extends AppCompatActivity {
