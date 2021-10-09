@@ -23,6 +23,7 @@ import android.widget.Toast;
 
 import java.util.Objects;
 
+// LINK: https://www.youtube.com/watch?v=y0KNW133DY0
 // LINK: https://www.youtube.com/watch?v=x1y4tEHDwk0 (10:09)
 // https://github.com/devunwired/accessory-samples/tree/master/BluetoothGatt
 // LINK: https://medium.com/@shahar_avigezer/bluetooth-low-energy-on-android-22bc7310387a
