@@ -28,6 +28,7 @@ import java.util.Objects;
 // https://github.com/devunwired/accessory-samples/tree/master/BluetoothGatt
 // LINK: https://medium.com/@shahar_avigezer/bluetooth-low-energy-on-android-22bc7310387a
 
+
 public class HomeActivity extends AppCompatActivity {
 
     private static final String TAG = "BluetoohGattActivity";
