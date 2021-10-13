@@ -29,8 +29,13 @@ import java.util.Objects;
 public class HomeActivity extends AppCompatActivity {
 
     Button btConectar, btMedir;
+
+    boolean conexao = false;
     private static final int SOLICITA_ATIVACAO = 1;
+    private static final int SOLICITA_CONEXAO = 2;
     BluetoothAdapter bluetoothAdapter = null;
+
+
 
     @SuppressLint({"SetJavaScriptEnabled"})
     @Override
@@ -60,6 +65,19 @@ public class HomeActivity extends AppCompatActivity {
             Intent ativaBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(ativaBluetooth, SOLICITA_ATIVACAO);
         }
+
+        btConectar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(conexao) {
+                    // desconectar
+                } else {
+                    // conectar
+                    Intent abreLista = new Intent(HomeActivity.this, ListaDispositivos.class);
+                    startActivityForResult(abreLista, SOLICITA_CONEXAO);
+                }
+            }
+        });
 
 
 
