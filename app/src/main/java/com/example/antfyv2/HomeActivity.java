@@ -3,28 +3,21 @@ package com.example.antfyv2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
-import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothGatt;
-import android.bluetooth.BluetoothManager;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.SparseArray;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Objects;
 
 /*
- * LINK TUTORIAL PORUGUÊS: https://www.youtube.com/watch?v=y0KNW133DY0
+ * LINK TUTORIAL PORUGUÊS: https://www.youtube.com/watch?v=y0KNW133DY0&list=PLssIKrX2yyQGfnguom7FagidX6KYqv-S2
  * LINK TUTORIAL INGLÊS: https://www.youtube.com/watch?v=x1y4tEHDwk0
  * https://github.com/devunwired/accessory-samples/tree/master/BluetoothGatt
  * https://medium.com/@shahar_avigezer/bluetooth-low-energy-on-android-22bc7310387a
@@ -32,6 +25,9 @@ import java.util.Objects;
 
 
 public class HomeActivity extends AppCompatActivity {
+
+    int ATIVA_BLUETOOTH = 1;
+    BluetoothAdapter bluetoothAdapter = null;
 
     @SuppressLint({"SetJavaScriptEnabled"})
     @Override
@@ -46,6 +42,20 @@ public class HomeActivity extends AppCompatActivity {
         View decorView = getWindow().getDecorView();
         int uiOpcoes = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION + View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         decorView.setSystemUiVisibility(uiOpcoes);
+
+
+
+
+        // BLUETOOTH
+        bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if(bluetoothAdapter == null) {
+            Toast.makeText(getApplicationContext(), "Seu dispositivo não possui bluetooh", Toast.LENGTH_SHORT).show();
+        } else if(!bluetoothAdapter.isEnabled()) {
+            Intent ativaBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(ativaBluetooth, ATIVA_BLUETOOTH);
+        }
+
+
 
 
         // SENTINDO ACTIVITY
