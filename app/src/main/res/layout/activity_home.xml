@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bt_conectar"
+        android:id="@+id/btConectar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -35,12 +35,12 @@
         android:drawableStart="@drawable/ic_baseline_bluetooth_24"
         android:text="@string/btn_conecta"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/bt_medir"
+        app:layout_constraintEnd_toStartOf="@+id/btMedir"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
-        android:id="@+id/bt_medir"
+        android:id="@+id/btMedir"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -50,7 +50,7 @@
         android:text="@string/btn_mede"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bt_conectar"
+        app:layout_constraintStart_toEndOf="@+id/btConectar"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
@@ -159,7 +159,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_conectar" />
+        app:layout_constraintTop_toBottomOf="@+id/btConectar" />
 
     <TextView
         android:id="@+id/textView15"
