@@ -33,6 +33,7 @@ public class HomeActivity extends AppCompatActivity {
     boolean conexao = false;
     private static final int SOLICITA_ATIVACAO = 1;
     private static final int SOLICITA_CONEXAO = 2;
+    private static String MAC = null;
     BluetoothAdapter bluetoothAdapter = null;
 
 
@@ -112,7 +113,7 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        // super.onActivityResult(requestCode, resultCode, data);
+        super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case SOLICITA_ATIVACAO:
                 if(resultCode == Activity.RESULT_OK) {
@@ -123,6 +124,13 @@ public class HomeActivity extends AppCompatActivity {
                 }
                 break;
 
+            case SOLICITA_CONEXAO:
+                if(resultCode == Activity.RESULT_OK) {
+                    MAC = data.getExtras().getString(ListaDispositivos.ENDERECO_MAC);
+                    Toast.makeText(getApplicationContext(), "MAC final: " + MAC, Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Falha ao obter o endereço MAC.", Toast.LENGTH_SHORT).show();
+                }
         }
     }
 }
