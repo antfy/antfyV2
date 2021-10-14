@@ -144,8 +144,8 @@
 76-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:63:9-71:20
 77            android:name="com.example.antfyv2.MainActivity"
 77-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:64:13-41
-78            android:screenOrientation="fullSensor" >
-78-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:65:13-51
+78            android:screenOrientation="portrait" >
+78-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:65:13-49
 79            <intent-filter>
 79-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:66:13-70:29
 80                <action android:name="android.intent.action.MAIN" />

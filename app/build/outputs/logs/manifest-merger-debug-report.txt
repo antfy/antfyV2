@@ -197,7 +197,7 @@ ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.x
 activity#com.example.antfyv2.MainActivity
 ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:63:9-71:20
 	android:screenOrientation
-		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:65:13-51
+		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:65:13-49
 	android:name
 		ADDED from C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:64:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
