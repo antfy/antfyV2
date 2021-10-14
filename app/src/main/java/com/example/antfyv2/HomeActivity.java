@@ -1,5 +1,6 @@
 package com.example.antfyv2;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,11 +12,15 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -35,11 +40,15 @@ import java.util.UUID;
 public class HomeActivity extends AppCompatActivity {
 
     Button btConectar, btMedir;
+    TextView txtTemp, txtBatimento;
+    ConnectedThread connectedThread;
+    Handler mHandler;
 
     private static final int SOLICITA_ATIVACAO = 1;
     private static final int SOLICITA_CONEXAO = 2;
+    private static final int MESSAGE_READ = 3;
 
-    ConnectedThread connectedThread;
+    StringBuilder dadosBluetooth = new StringBuilder();
 
     boolean conexao = false;
     private static String MAC = null;
@@ -56,7 +65,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
-    @SuppressLint({"SetJavaScriptEnabled"})
+    @SuppressLint({"SetJavaScriptEnabled", "HandlerLeak"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +85,8 @@ public class HomeActivity extends AppCompatActivity {
         // BLUETOOTH
         btConectar = (Button) findViewById(R.id.btConectar);
         btMedir = (Button) findViewById(R.id.btMedir);
+        txtTemp = (TextView) findViewById(R.id.txtTemp);
+        txtBatimento = (TextView) findViewById(R.id.txtBatimento);
 
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if(bluetoothAdapter == null) {
@@ -120,6 +131,51 @@ public class HomeActivity extends AppCompatActivity {
                 }
             }
         });
+
+        mHandler = new Handler() {
+            @SuppressLint({"HandlerLeak", "SetTextI18n"})
+            @Override
+            public void handleMessage(@NonNull Message msg) {
+                if(msg.what == MESSAGE_READ) {
+                    String recebidos = (String) msg.obj;
+                    dadosBluetooth.append(recebidos);
+
+                    int fimInformacao = dadosBluetooth.indexOf("}");
+
+                    if (fimInformacao > 0) {
+                        String dadosCompletos = dadosBluetooth.substring(0, fimInformacao);
+                        int tamInformacao = dadosCompletos.length();
+
+                        if (dadosBluetooth.charAt(0) == '{') {
+                            // {Medir} -> tamInformacao = len("Medir") -> ignora as chaves
+                            String dadosFinais = dadosBluetooth.substring(1, tamInformacao);
+                            Log.d("Recebidos: ", dadosFinais);
+
+                            /*
+                            * if/else para medição
+                            * se os dados recebidos forem separados
+                            * é só criar um condição para cada dado
+                            */
+                            if (dadosFinais.contains("medicao")) {
+                                txtTemp.setText("36,5 ºC");
+                                txtBatimento.setText("120 bpm");
+                                Log.d("Temp: ", "Mediu");
+                                Log.d("Batimento: ", "Mediu");
+                            } else {
+                                txtTemp.setText("");
+                                txtBatimento.setText("");
+                                Log.d("Temp: ", "Não medeiu");
+                                Log.d("Batimento: ", "Não mediu");
+                            }
+                        }
+
+                        // Para não acumular os dados
+                        dadosBluetooth.delete(0, dadosBluetooth.length());
+
+                    }
+                }
+            }
+        };
 
 
 
@@ -220,22 +276,20 @@ public class HomeActivity extends AppCompatActivity {
             byte[] buffer = new byte[1024];
             int numBytes; // bytes returned from read()
 
-            /*
             // Keep listening to the InputStream until an exception occurs.
             while (true) {
                 try {
                     // Read from the InputStream.
                     numBytes = mmInStream.read(buffer);
+                    String dadosBlt = new String(buffer, 0, numBytes);
+
                     // Send the obtained bytes to the UI activity.
-                    Message readMsg = handler.obtainMessage(
-                            MessageConstants.MESSAGE_READ, numBytes, -1,
-                            mmBuffer);
-                    readMsg.sendToTarget();
+                    mHandler.obtainMessage(MESSAGE_READ, numBytes, -1, dadosBlt).sendToTarget();
+
                 } catch (IOException e) {
                     break;
                 }
             }
-             */
         }
 
         // Call this from the main activity to send data to the remote device.
