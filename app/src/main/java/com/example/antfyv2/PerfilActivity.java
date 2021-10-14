@@ -11,6 +11,12 @@ import android.widget.EditText;
 
 import java.util.Objects;
 
+/*
+ * LINK: https://www.devmedia.com.br/consumindo-dados-de-um-web-service-com-android/33717
+ * LINK: https://www.androidpro.com.br/blog/desenvolvimento-android/webservice/
+ * LINK TUTORIAL: https://www.youtube.com/watch?v=_HSXZN3LZQg
+*/
+
 public class PerfilActivity extends AppCompatActivity {
 
     @Override
