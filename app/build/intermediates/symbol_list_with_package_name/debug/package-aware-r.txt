@@ -1706,6 +1706,7 @@ drawable divisor_darkest_blue
 drawable ic_baseline_bluetooth_24
 drawable ic_baseline_notification_important_24
 drawable ic_baseline_person_24
+drawable ic_circle
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1975,7 +1976,9 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id imageView6
+id imageView7
 id info
 id invisible
 id inward

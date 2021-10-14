@@ -164,6 +164,10 @@
         "source": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_circle.xml.flat",
+        "source": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\src\\main\\res\\drawable\\ic_circle.xml"
+    },
+    {
         "merged": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_antfy.png.flat",
         "source": "C:\\Users\\Laura\\Documents\\laura\\antfyV2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_antfy.png"
     },

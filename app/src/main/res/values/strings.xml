@@ -1,6 +1,6 @@
 <resources>
     <!-- Título do app -->
-    <string name="app_name">ANTFY</string>
+    <string name="app_name">quick doctor</string>
 
     <!-- Telas Iniciais -->
     <string name="btn_cadastre">CADASTRE-SE</string>

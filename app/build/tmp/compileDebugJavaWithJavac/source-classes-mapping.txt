@@ -15,6 +15,9 @@ com/example/antfyv2/ListaDispositivos.java
 com/example/antfyv2/HomeActivity.java
  com.example.antfyv2.HomeActivity
  com.example.antfyv2.HomeActivity$1
+ com.example.antfyv2.HomeActivity$2
+ com.example.antfyv2.HomeActivity$3
+ com.example.antfyv2.HomeActivity$ConnectedThread
 com/example/antfyv2/MainActivity.java
  com.example.antfyv2.MainActivity
 com/example/antfyv2/BuildConfig.java
