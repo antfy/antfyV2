@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/quick_doctor" />
+        app:srcCompat="@drawable/logo_quick_doctor_vf" />
 
     <Button
         android:id="@+id/btEntre"

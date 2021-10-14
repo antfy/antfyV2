@@ -12,9 +12,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_antfy"
+        android:icon="@mipmap/ic_launcher_quick_doctor"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_antfy_round"
+        android:roundIcon="@mipmap/ic_launcher_quick_doctor_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AntfyV2">
         <activity
