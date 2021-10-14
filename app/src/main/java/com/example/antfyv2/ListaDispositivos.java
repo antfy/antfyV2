@@ -29,7 +29,7 @@ public class ListaDispositivos extends ListActivity {
         bluetoothAdapter2 = BluetoothAdapter.getDefaultAdapter();
         Set<BluetoothDevice> dispositivosPareados = bluetoothAdapter2.getBondedDevices();
 
-        if(dispositivosPareados.size() > 0) {
+        if (dispositivosPareados.size() > 0) {
             for (BluetoothDevice dispositivo : dispositivosPareados) {
                 String nomeBlt = dispositivo.getName();
                 String macBlt = dispositivo.getAddress();

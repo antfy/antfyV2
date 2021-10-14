@@ -48,14 +48,14 @@ public class HomeActivity extends AppCompatActivity {
     private static final int SOLICITA_CONEXAO = 2;
     private static final int MESSAGE_READ = 3;
 
-    StringBuilder dadosBluetooth = new StringBuilder();
-
     boolean conexao = false;
     private static String MAC = null;
 
     BluetoothAdapter bluetoothAdapter = null;
     BluetoothDevice myDevice = null;
     BluetoothSocket mySocket = null;
+
+    StringBuilder dadosBluetooth = new StringBuilder();
 
     UUID MEU_UUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
     // HEART_RATE_SERVICE_UUID = convertFromInteger(0x180D);
@@ -89,9 +89,10 @@ public class HomeActivity extends AppCompatActivity {
         txtBatimento = (TextView) findViewById(R.id.txtBatimento);
 
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-        if(bluetoothAdapter == null) {
+        if (bluetoothAdapter == null) {
             Toast.makeText(getApplicationContext(), "Seu dispositivo não possui bluetooh.", Toast.LENGTH_SHORT).show();
-        } else if(!bluetoothAdapter.isEnabled()) {
+
+        } else if (!bluetoothAdapter.isEnabled()) {
             Intent ativaBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(ativaBluetooth, SOLICITA_ATIVACAO);
         }
@@ -100,8 +101,8 @@ public class HomeActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if(conexao) {
-                    // desconectar
+                if (conexao) {
+                    // Desconectar
                     try {
                         mySocket.close();
                         conexao = false;
@@ -114,7 +115,7 @@ public class HomeActivity extends AppCompatActivity {
                     }
 
                 } else {
-                    // conectar
+                    // Conectar
                     Intent abreLista = new Intent(HomeActivity.this, ListaDispositivos.class);
                     startActivityForResult(abreLista, SOLICITA_CONEXAO);
                 }
@@ -124,7 +125,7 @@ public class HomeActivity extends AppCompatActivity {
         btMedir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(conexao) {
+                if (conexao) {
                     connectedThread.enviar("Medir");
                 } else {
                     Toast.makeText(getApplicationContext(), "Bluetooth não está conectado.", Toast.LENGTH_SHORT).show();
@@ -136,7 +137,7 @@ public class HomeActivity extends AppCompatActivity {
             @SuppressLint({"HandlerLeak", "SetTextI18n"})
             @Override
             public void handleMessage(@NonNull Message msg) {
-                if(msg.what == MESSAGE_READ) {
+                if (msg.what == MESSAGE_READ) {
                     String recebidos = (String) msg.obj;
                     dadosBluetooth.append(recebidos);
 
@@ -208,14 +209,16 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
+
     @SuppressLint("SetTextI18n")
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case SOLICITA_ATIVACAO:
-                if(resultCode == Activity.RESULT_OK) {
+                if (resultCode == Activity.RESULT_OK) {
                     Toast.makeText(getApplicationContext(), "O bluetooth foi ativado.", Toast.LENGTH_SHORT).show();
+
                 } else {
                     Toast.makeText(getApplicationContext(), "O bluetooth não foi ativado, o app será encerrado.", Toast.LENGTH_SHORT).show();
                     finish();
@@ -223,7 +226,7 @@ public class HomeActivity extends AppCompatActivity {
                 break;
 
             case SOLICITA_CONEXAO:
-                if(resultCode == Activity.RESULT_OK) {
+                if (resultCode == Activity.RESULT_OK) {
                     MAC = data.getExtras().getString(ListaDispositivos.ENDERECO_MAC);
                     // Toast.makeText(getApplicationContext(), "MAC final: " + MAC, Toast.LENGTH_SHORT).show();
 
@@ -251,6 +254,7 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+
     private class ConnectedThread extends Thread {
         private final InputStream mmInStream;
         private final OutputStream mmOutStream;
@@ -265,7 +269,7 @@ public class HomeActivity extends AppCompatActivity {
                 tmpIn = socket.getInputStream();
                 tmpOut = socket.getOutputStream();
             } catch (IOException e) {
-
+                Log.e("Ocorreu um erro: ", "falha na thread.");
             }
 
             mmInStream = tmpIn;
@@ -300,7 +304,7 @@ public class HomeActivity extends AppCompatActivity {
                 mmOutStream.write(msgBuffer);
 
             } catch (IOException e) {
-
+                Log.e("Ocorreu um erro: ", "falha ao enviar dados.");
             }
         }
 
