@@ -1755,6 +1755,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable quick_doctor
 drawable rectangle_blue
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1850,17 +1851,17 @@ id bounce
 id btAgenda
 id btCadastrar
 id btCadastrese
+id btConectar
 id btDesconectar
 id btEditar
 id btEntrar
 id btEntre
+id btMedir
 id btMensagens
 id btNoticias
 id btNotify
 id btPerfil
 id btSentindo
-id bt_conectar
-id bt_medir
 id buscaSintoma
 id buttonPanel
 id cache_measures

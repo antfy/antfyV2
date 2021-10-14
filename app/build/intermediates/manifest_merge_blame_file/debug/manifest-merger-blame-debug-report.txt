@@ -37,7 +37,7 @@
 20-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:11:22-76
 21
 22    <application
-22-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:13:5-72:19
+22-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:13:5-77:19
 23        android:allowBackup="true"
 23-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:14:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -157,6 +157,14 @@
 82-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:69:27-74
 83            </intent-filter>
 84        </activity>
-85    </application>
-86
-87</manifest>
+85        <activity
+85-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:73:9-76:53
+86            android:name="com.example.antfyv2.ListaDispositivos"
+86-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:74:13-46
+87            android:label="Dispositivos Pareados"
+87-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:76:13-50
+88            android:theme="@android:style/Theme.Dialog" />
+88-->C:\Users\Laura\Documents\laura\antfyV2\app\src\main\AndroidManifest.xml:75:13-56
+89    </application>
+90
+91</manifest>

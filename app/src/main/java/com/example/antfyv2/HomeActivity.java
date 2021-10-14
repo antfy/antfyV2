@@ -19,6 +19,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -36,6 +38,8 @@ public class HomeActivity extends AppCompatActivity {
 
     private static final int SOLICITA_ATIVACAO = 1;
     private static final int SOLICITA_CONEXAO = 2;
+
+    ConnectedThread connectedThread;
 
     boolean conexao = false;
     private static String MAC = null;
@@ -106,6 +110,17 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        btMedir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(conexao) {
+                    connectedThread.enviar("Medir");
+                } else {
+                    Toast.makeText(getApplicationContext(), "Bluetooth não está conectado.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
 
 
 
@@ -163,6 +178,9 @@ public class HomeActivity extends AppCompatActivity {
                         mySocket.connect();
                         conexao = true;
 
+                        connectedThread = new ConnectedThread(mySocket);
+                        connectedThread.start();
+
                         btConectar.setText("Desconectar");
                         Toast.makeText(getApplicationContext(), "Você foi conectado com: " + MAC, Toast.LENGTH_SHORT).show();
 
@@ -176,6 +194,64 @@ public class HomeActivity extends AppCompatActivity {
                 }
         }
     }
+
+    private class ConnectedThread extends Thread {
+        private final InputStream mmInStream;
+        private final OutputStream mmOutStream;
+
+        public ConnectedThread(BluetoothSocket socket) {
+            InputStream tmpIn = null;
+            OutputStream tmpOut = null;
+
+            // Get the input and output streams; using temp objects because
+            // member streams are final.
+            try {
+                tmpIn = socket.getInputStream();
+                tmpOut = socket.getOutputStream();
+            } catch (IOException e) {
+
+            }
+
+            mmInStream = tmpIn;
+            mmOutStream = tmpOut;
+        }
+
+        public void run() {
+            byte[] buffer = new byte[1024];
+            int numBytes; // bytes returned from read()
+
+            /*
+            // Keep listening to the InputStream until an exception occurs.
+            while (true) {
+                try {
+                    // Read from the InputStream.
+                    numBytes = mmInStream.read(buffer);
+                    // Send the obtained bytes to the UI activity.
+                    Message readMsg = handler.obtainMessage(
+                            MessageConstants.MESSAGE_READ, numBytes, -1,
+                            mmBuffer);
+                    readMsg.sendToTarget();
+                } catch (IOException e) {
+                    break;
+                }
+            }
+             */
+        }
+
+        // Call this from the main activity to send data to the remote device.
+        public void enviar(String dadosEnviar) {
+            byte[] msgBuffer = dadosEnviar.getBytes();
+
+            try {
+                mmOutStream.write(msgBuffer);
+
+            } catch (IOException e) {
+
+            }
+        }
+
+    }
+
 
     /*
     public UUID convertFromInteger(int i) {
