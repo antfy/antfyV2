@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,7 +18,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.Objects;
+import java.util.UUID;
 
 /*
  * LINK TUTORIAL PORUGUÊS: https://www.youtube.com/watch?v=y0KNW133DY0&list=PLssIKrX2yyQGfnguom7FagidX6KYqv-S2
@@ -30,11 +34,21 @@ public class HomeActivity extends AppCompatActivity {
 
     Button btConectar, btMedir;
 
-    boolean conexao = false;
     private static final int SOLICITA_ATIVACAO = 1;
     private static final int SOLICITA_CONEXAO = 2;
+
+    boolean conexao = false;
     private static String MAC = null;
+
     BluetoothAdapter bluetoothAdapter = null;
+    BluetoothDevice myDevice = null;
+    BluetoothSocket mySocket = null;
+
+    UUID MEU_UUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
+    // HEART_RATE_SERVICE_UUID = convertFromInteger(0x180D);
+    // HEART_RATE_MEASUREMENT_CHAR_UUID = convertFromInteger(0x2A37);
+    // HEART_RATE_CONTROL_POINT_CHAR_UUID = convertFromInteger(0x2A39);
+
 
 
 
@@ -68,10 +82,22 @@ public class HomeActivity extends AppCompatActivity {
         }
 
         btConectar.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 if(conexao) {
                     // desconectar
+                    try {
+                        mySocket.close();
+                        conexao = false;
+
+                        btConectar.setText("Conectar");
+                        Toast.makeText(getApplicationContext(), "Bluetooth desconectado.", Toast.LENGTH_SHORT).show();
+
+                    } catch (IOException erro) {
+                        Toast.makeText(getApplicationContext(), "Ocorreu um erro: " + erro, Toast.LENGTH_SHORT).show();
+                    }
+
                 } else {
                     // conectar
                     Intent abreLista = new Intent(HomeActivity.this, ListaDispositivos.class);
@@ -111,6 +137,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -127,10 +154,35 @@ public class HomeActivity extends AppCompatActivity {
             case SOLICITA_CONEXAO:
                 if(resultCode == Activity.RESULT_OK) {
                     MAC = data.getExtras().getString(ListaDispositivos.ENDERECO_MAC);
-                    Toast.makeText(getApplicationContext(), "MAC final: " + MAC, Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(getApplicationContext(), "MAC final: " + MAC, Toast.LENGTH_SHORT).show();
+
+                    myDevice = bluetoothAdapter.getRemoteDevice(MAC);
+
+                    try {
+                        mySocket = myDevice.createRfcommSocketToServiceRecord(MEU_UUID);
+                        mySocket.connect();
+                        conexao = true;
+
+                        btConectar.setText("Desconectar");
+                        Toast.makeText(getApplicationContext(), "Você foi conectado com: " + MAC, Toast.LENGTH_SHORT).show();
+
+                    } catch (IOException erro) {
+                        conexao = false;
+                        Toast.makeText(getApplicationContext(), "Ocorreu um erro: " + erro, Toast.LENGTH_SHORT).show();
+                    }
+
                 } else {
                     Toast.makeText(getApplicationContext(), "Falha ao obter o endereço MAC.", Toast.LENGTH_SHORT).show();
                 }
         }
     }
+
+    /*
+    public UUID convertFromInteger(int i) {
+        final long MSB = 0x0000000000001000L;
+        final long LSB = 0x800000805f9b34fbL;
+        long value = i & 0xFFFFFFFF;
+        return new UUID(MSB | (value << 32), LSB);
+    }
+    */
 }
