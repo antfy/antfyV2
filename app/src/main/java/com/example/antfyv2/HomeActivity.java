@@ -88,6 +88,7 @@ public class HomeActivity extends AppCompatActivity {
         txtTemp = (TextView) findViewById(R.id.txtTemp);
         txtBatimento = (TextView) findViewById(R.id.txtBatimento);
 
+
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if (bluetoothAdapter == null) {
             Toast.makeText(getApplicationContext(), "Seu dispositivo não possui bluetooh.", Toast.LENGTH_SHORT).show();
@@ -96,6 +97,7 @@ public class HomeActivity extends AppCompatActivity {
             Intent ativaBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(ativaBluetooth, SOLICITA_ATIVACAO);
         }
+
 
         btConectar.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
@@ -122,6 +124,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+
         btMedir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -132,6 +135,7 @@ public class HomeActivity extends AppCompatActivity {
                 }
             }
         });
+
 
         mHandler = new Handler() {
             @SuppressLint({"HandlerLeak", "SetTextI18n"})
