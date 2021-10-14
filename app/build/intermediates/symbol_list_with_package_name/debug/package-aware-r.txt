@@ -1068,6 +1068,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_antfy_background
+color ic_launcher_quick_doctor_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1723,6 +1724,7 @@ drawable light_3
 drawable light_4
 drawable light_5
 drawable light_6
+drawable logo_quick_doctor_vf
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1757,6 +1759,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable quick_doctor
+drawable quick_doctor_icon
 drawable rectangle_blue
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -2408,6 +2411,9 @@ mipmap ic_launcher
 mipmap ic_launcher_antfy
 mipmap ic_launcher_antfy_foreground
 mipmap ic_launcher_antfy_round
+mipmap ic_launcher_quick_doctor
+mipmap ic_launcher_quick_doctor_foreground
+mipmap ic_launcher_quick_doctor_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
